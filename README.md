@@ -1,7 +1,5 @@
 # dtac Components for iOS
 
-<img align="right" src="mdc_hero.png" width="300px">
-
 dtac Components for iOS helps developers execute dtac design. Developed by a core team of engineers and UX designers at dtac, these components enable a reliable development workflow to build beautiful and functional iOS apps. 
 
 ## Trying out dtac Components
