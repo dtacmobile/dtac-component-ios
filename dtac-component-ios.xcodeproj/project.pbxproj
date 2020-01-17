@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD42637E23D19C2C0092BD2F /* dtacAlertController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD42637C23D19C2B0092BD2F /* dtacAlertController.xib */; };
+		DD42637F23D19C2C0092BD2F /* dtacAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD42637D23D19C2C0092BD2F /* dtacAlertController.swift */; };
+		DD42638123D19D0F0092BD2F /* AFTelenoreStyleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD42638023D19D0F0092BD2F /* AFTelenoreStyleButton.swift */; };
 		DDA674ED23D04E15000F0C75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA674EC23D04E15000F0C75 /* AppDelegate.swift */; };
 		DDA674EF23D04E15000F0C75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA674EE23D04E15000F0C75 /* SceneDelegate.swift */; };
 		DDA674F123D04E15000F0C75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA674F023D04E15000F0C75 /* ViewController.swift */; };
@@ -14,6 +17,15 @@
 		DDA674F623D04E17000F0C75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDA674F523D04E17000F0C75 /* Assets.xcassets */; };
 		DDA674F923D04E17000F0C75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDA674F723D04E17000F0C75 /* LaunchScreen.storyboard */; };
 		DDA6750423D04E17000F0C75 /* dtac_component_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA6750323D04E17000F0C75 /* dtac_component_iosUITests.swift */; };
+		DDA6751023D04EEB000F0C75 /* DTACButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA6750F23D04EEB000F0C75 /* DTACButton.swift */; };
+		DDA6751223D04F04000F0C75 /* UIColor+Telenor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA6751123D04F04000F0C75 /* UIColor+Telenor.swift */; };
+		DDA6751423D04FAE000F0C75 /* UIFont+Telenor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA6751323D04FAE000F0C75 /* UIFont+Telenor.swift */; };
+		DDA6751C23D06493000F0C75 /* DTAC2018-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DDA6751623D06493000F0C75 /* DTAC2018-BoldItalic.otf */; };
+		DDA6751D23D06493000F0C75 /* DTAC2018-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = DDA6751723D06493000F0C75 /* DTAC2018-Light.otf */; };
+		DDA6751E23D06493000F0C75 /* DTAC2018-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DDA6751823D06493000F0C75 /* DTAC2018-Bold.otf */; };
+		DDA6751F23D06493000F0C75 /* DTAC2018-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DDA6751923D06493000F0C75 /* DTAC2018-Regular.otf */; };
+		DDA6752023D06493000F0C75 /* DTAC2018-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DDA6751A23D06493000F0C75 /* DTAC2018-Italic.otf */; };
+		DDA6752123D06493000F0C75 /* DTAC2018-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DDA6751B23D06493000F0C75 /* DTAC2018-LightItalic.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD42637C23D19C2B0092BD2F /* dtacAlertController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = dtacAlertController.xib; sourceTree = "<group>"; };
+		DD42637D23D19C2C0092BD2F /* dtacAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dtacAlertController.swift; sourceTree = "<group>"; };
+		DD42638023D19D0F0092BD2F /* AFTelenoreStyleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFTelenoreStyleButton.swift; sourceTree = "<group>"; };
 		DDA674E923D04E15000F0C75 /* dtac-component-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dtac-component-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDA674EC23D04E15000F0C75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDA674EE23D04E15000F0C75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +53,15 @@
 		DDA674FF23D04E17000F0C75 /* dtac-component-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dtac-component-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDA6750323D04E17000F0C75 /* dtac_component_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dtac_component_iosUITests.swift; sourceTree = "<group>"; };
 		DDA6750523D04E17000F0C75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDA6750F23D04EEB000F0C75 /* DTACButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTACButton.swift; sourceTree = "<group>"; };
+		DDA6751123D04F04000F0C75 /* UIColor+Telenor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Telenor.swift"; sourceTree = "<group>"; };
+		DDA6751323D04FAE000F0C75 /* UIFont+Telenor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Telenor.swift"; sourceTree = "<group>"; };
+		DDA6751623D06493000F0C75 /* DTAC2018-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DTAC2018-BoldItalic.otf"; sourceTree = "<group>"; };
+		DDA6751723D06493000F0C75 /* DTAC2018-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DTAC2018-Light.otf"; sourceTree = "<group>"; };
+		DDA6751823D06493000F0C75 /* DTAC2018-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DTAC2018-Bold.otf"; sourceTree = "<group>"; };
+		DDA6751923D06493000F0C75 /* DTAC2018-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DTAC2018-Regular.otf"; sourceTree = "<group>"; };
+		DDA6751A23D06493000F0C75 /* DTAC2018-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DTAC2018-Italic.otf"; sourceTree = "<group>"; };
+		DDA6751B23D06493000F0C75 /* DTAC2018-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DTAC2018-LightItalic.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +103,16 @@
 		DDA674EB23D04E15000F0C75 /* dtac-component-ios */ = {
 			isa = PBXGroup;
 			children = (
+				DDA6751523D06493000F0C75 /* Fonts */,
+				DDA6750E23D04ED0000F0C75 /* Extensions */,
 				DDA674EC23D04E15000F0C75 /* AppDelegate.swift */,
 				DDA674EE23D04E15000F0C75 /* SceneDelegate.swift */,
+				DD42638023D19D0F0092BD2F /* AFTelenoreStyleButton.swift */,
+				DDA6750F23D04EEB000F0C75 /* DTACButton.swift */,
 				DDA674F023D04E15000F0C75 /* ViewController.swift */,
 				DDA674F223D04E15000F0C75 /* Main.storyboard */,
+				DD42637D23D19C2C0092BD2F /* dtacAlertController.swift */,
+				DD42637C23D19C2B0092BD2F /* dtacAlertController.xib */,
 				DDA674F523D04E17000F0C75 /* Assets.xcassets */,
 				DDA674F723D04E17000F0C75 /* LaunchScreen.storyboard */,
 				DDA674FA23D04E17000F0C75 /* Info.plist */,
@@ -97,6 +127,28 @@
 				DDA6750523D04E17000F0C75 /* Info.plist */,
 			);
 			path = "dtac-component-iosUITests";
+			sourceTree = "<group>";
+		};
+		DDA6750E23D04ED0000F0C75 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DDA6751123D04F04000F0C75 /* UIColor+Telenor.swift */,
+				DDA6751323D04FAE000F0C75 /* UIFont+Telenor.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DDA6751523D06493000F0C75 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DDA6751623D06493000F0C75 /* DTAC2018-BoldItalic.otf */,
+				DDA6751723D06493000F0C75 /* DTAC2018-Light.otf */,
+				DDA6751823D06493000F0C75 /* DTAC2018-Bold.otf */,
+				DDA6751923D06493000F0C75 /* DTAC2018-Regular.otf */,
+				DDA6751A23D06493000F0C75 /* DTAC2018-Italic.otf */,
+				DDA6751B23D06493000F0C75 /* DTAC2018-LightItalic.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,8 +233,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDA674F923D04E17000F0C75 /* LaunchScreen.storyboard in Resources */,
+				DDA6751E23D06493000F0C75 /* DTAC2018-Bold.otf in Resources */,
+				DD42637E23D19C2C0092BD2F /* dtacAlertController.xib in Resources */,
+				DDA6751C23D06493000F0C75 /* DTAC2018-BoldItalic.otf in Resources */,
 				DDA674F623D04E17000F0C75 /* Assets.xcassets in Resources */,
+				DDA6752123D06493000F0C75 /* DTAC2018-LightItalic.otf in Resources */,
+				DDA6752023D06493000F0C75 /* DTAC2018-Italic.otf in Resources */,
 				DDA674F423D04E15000F0C75 /* Main.storyboard in Resources */,
+				DDA6751F23D06493000F0C75 /* DTAC2018-Regular.otf in Resources */,
+				DDA6751D23D06493000F0C75 /* DTAC2018-Light.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,9 +259,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD42638123D19D0F0092BD2F /* AFTelenoreStyleButton.swift in Sources */,
+				DDA6751423D04FAE000F0C75 /* UIFont+Telenor.swift in Sources */,
 				DDA674F123D04E15000F0C75 /* ViewController.swift in Sources */,
+				DDA6751223D04F04000F0C75 /* UIColor+Telenor.swift in Sources */,
 				DDA674ED23D04E15000F0C75 /* AppDelegate.swift in Sources */,
 				DDA674EF23D04E15000F0C75 /* SceneDelegate.swift in Sources */,
+				DD42637F23D19C2C0092BD2F /* dtacAlertController.swift in Sources */,
+				DDA6751023D04EEB000F0C75 /* DTACButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
