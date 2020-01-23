@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/dtacmobile/dtac-component-ios", :tag => "#{spec.version}" }
 
   spec.swift_versions = ['5.0', '5.1']
-  spec.source_files  = "Source/**/*.swift"
+  spec.source_files  = "component/Source/**/*.swift"
 
 
   # spec.public_header_files = "Classes/**/*.h"
