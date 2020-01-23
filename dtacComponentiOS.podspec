@@ -7,10 +7,10 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT"
   spec.author             = { "dtac" => "mobileapp@dtac.co.th" }
   spec.ios.deployment_target = "9.0"
-  spec.source       = { :git => "https://github.com/dtacmobile/dtac-component-ios", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/dtacmobile/dtac-component-ios.git", :tag => "#{spec.version}" }
 
   spec.swift_versions = ['5.0', '5.1']
-  spec.source_files  = "component/Source/**/*.swift"
+  spec.source_files  = "component/component/Source/**/*"
 
 
   # spec.public_header_files = "Classes/**/*.h"
