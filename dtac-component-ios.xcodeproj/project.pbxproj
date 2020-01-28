@@ -26,6 +26,7 @@
 		DDA6751F23D06493000F0C75 /* DTAC2018-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DDA6751923D06493000F0C75 /* DTAC2018-Regular.otf */; };
 		DDA6752023D06493000F0C75 /* DTAC2018-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DDA6751A23D06493000F0C75 /* DTAC2018-Italic.otf */; };
 		DDA6752123D06493000F0C75 /* DTAC2018-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DDA6751B23D06493000F0C75 /* DTAC2018-LightItalic.otf */; };
+		DDC4125C23E0290500C93D13 /* DTACGridItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC4125B23E0290500C93D13 /* DTACGridItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		DDA6751923D06493000F0C75 /* DTAC2018-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DTAC2018-Regular.otf"; sourceTree = "<group>"; };
 		DDA6751A23D06493000F0C75 /* DTAC2018-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DTAC2018-Italic.otf"; sourceTree = "<group>"; };
 		DDA6751B23D06493000F0C75 /* DTAC2018-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DTAC2018-LightItalic.otf"; sourceTree = "<group>"; };
+		DDC4125B23E0290500C93D13 /* DTACGridItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTACGridItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				DDA674EE23D04E15000F0C75 /* SceneDelegate.swift */,
 				DD42638023D19D0F0092BD2F /* AFTelenoreStyleButton.swift */,
 				DDA6750F23D04EEB000F0C75 /* DTACButton.swift */,
+				DDC4125B23E0290500C93D13 /* DTACGridItem.swift */,
 				DDA674F023D04E15000F0C75 /* ViewController.swift */,
 				DDA674F223D04E15000F0C75 /* Main.storyboard */,
 				DD42637D23D19C2C0092BD2F /* dtacAlertController.swift */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDC4125C23E0290500C93D13 /* DTACGridItem.swift in Sources */,
 				DD42638123D19D0F0092BD2F /* AFTelenoreStyleButton.swift in Sources */,
 				DDA6751423D04FAE000F0C75 /* UIFont+Telenor.swift in Sources */,
 				DDA674F123D04E15000F0C75 /* ViewController.swift in Sources */,
