@@ -1,0 +1,47 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+  before_all do
+    ENV["SLACK_URL"] = "https://hooks.slack.com/services/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"
+
+  end
+
+  desc "Runs all the tests"
+  lane :test do
+    clear_derived_data
+
+    run_tests(project: "component.xcodeproj",
+            devices: ["iPhone 11 Pro Max"],
+            scheme: "component")
+  end
+  after_all do |lane|
+    # This block is called, only if the executed lane was successful
+
+    slack(
+      message: "iOS Continuous Integration Done."
+    )
+  end
+
+  error do |lane, exception|
+    slack(
+      message: exception.message,
+      success: false
+    )
+  end
+
+end
