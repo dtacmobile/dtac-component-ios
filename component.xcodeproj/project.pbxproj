@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A605F08A23E1780A00EB727C /* DTAC2018-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = A605F08423E1780A00EB727C /* DTAC2018-BoldItalic.otf */; };
+		A605F08B23E1780A00EB727C /* DTAC2018-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = A605F08523E1780A00EB727C /* DTAC2018-Light.otf */; };
+		A605F08C23E1780A00EB727C /* DTAC2018-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A605F08623E1780A00EB727C /* DTAC2018-Bold.otf */; };
+		A605F08D23E1780A00EB727C /* DTAC2018-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = A605F08723E1780A00EB727C /* DTAC2018-Regular.otf */; };
+		A605F08E23E1780A00EB727C /* DTAC2018-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = A605F08823E1780A00EB727C /* DTAC2018-Italic.otf */; };
+		A605F08F23E1780A00EB727C /* DTAC2018-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = A605F08923E1780A00EB727C /* DTAC2018-LightItalic.otf */; };
+		A605F09223E17A4500EB727C /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A605F09023E17A4500EB727C /* CircleButton.swift */; };
+		A605F09323E17A4500EB727C /* DtacStyleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A605F09123E17A4500EB727C /* DtacStyleButton.swift */; };
 		A6F18F7623D8404B00ACEF98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F18F7523D8404B00ACEF98 /* AppDelegate.swift */; };
 		A6F18F7823D8404B00ACEF98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F18F7723D8404B00ACEF98 /* SceneDelegate.swift */; };
 		A6F18F7A23D8404B00ACEF98 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F18F7923D8404B00ACEF98 /* FirstViewController.swift */; };
@@ -18,7 +26,6 @@
 		A6F18F9A23D8404F00ACEF98 /* componentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F18F9923D8404F00ACEF98 /* componentUITests.swift */; };
 		A6F18FCF23D9BD0500ACEF98 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F18FCB23D9BD0500ACEF98 /* UIView+Extension.swift */; };
 		A6F18FD023D9BD0500ACEF98 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F18FCC23D9BD0500ACEF98 /* UIFont+Extension.swift */; };
-		A6F18FD123D9BD0500ACEF98 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F18FCD23D9BD0500ACEF98 /* CircleButton.swift */; };
 		A6F18FD223D9BD0500ACEF98 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F18FCE23D9BD0500ACEF98 /* UIColor+Extension.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +47,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A605F08423E1780A00EB727C /* DTAC2018-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DTAC2018-BoldItalic.otf"; sourceTree = "<group>"; };
+		A605F08523E1780A00EB727C /* DTAC2018-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DTAC2018-Light.otf"; sourceTree = "<group>"; };
+		A605F08623E1780A00EB727C /* DTAC2018-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DTAC2018-Bold.otf"; sourceTree = "<group>"; };
+		A605F08723E1780A00EB727C /* DTAC2018-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DTAC2018-Regular.otf"; sourceTree = "<group>"; };
+		A605F08823E1780A00EB727C /* DTAC2018-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DTAC2018-Italic.otf"; sourceTree = "<group>"; };
+		A605F08923E1780A00EB727C /* DTAC2018-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DTAC2018-LightItalic.otf"; sourceTree = "<group>"; };
+		A605F09023E17A4500EB727C /* CircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		A605F09123E17A4500EB727C /* DtacStyleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DtacStyleButton.swift; sourceTree = "<group>"; };
 		A6F18F7223D8404B00ACEF98 /* component.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = component.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6F18F7523D8404B00ACEF98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6F18F7723D8404B00ACEF98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,7 +72,6 @@
 		A6F18F9B23D8404F00ACEF98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6F18FCB23D9BD0500ACEF98 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Extension.swift"; path = "../../../../Downloads/Extension/component/Source/UIView+Extension.swift"; sourceTree = "<group>"; };
 		A6F18FCC23D9BD0500ACEF98 /* UIFont+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIFont+Extension.swift"; path = "../../../../Downloads/Extension/component/Source/UIFont+Extension.swift"; sourceTree = "<group>"; };
-		A6F18FCD23D9BD0500ACEF98 /* CircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CircleButton.swift; path = ../../../../Downloads/Extension/component/Source/CircleButton.swift; sourceTree = "<group>"; };
 		A6F18FCE23D9BD0500ACEF98 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+Extension.swift"; path = "../../../../Downloads/Extension/component/Source/UIColor+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,6 +100,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A605F08323E1780A00EB727C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A605F08423E1780A00EB727C /* DTAC2018-BoldItalic.otf */,
+				A605F08523E1780A00EB727C /* DTAC2018-Light.otf */,
+				A605F08623E1780A00EB727C /* DTAC2018-Bold.otf */,
+				A605F08723E1780A00EB727C /* DTAC2018-Regular.otf */,
+				A605F08823E1780A00EB727C /* DTAC2018-Italic.otf */,
+				A605F08923E1780A00EB727C /* DTAC2018-LightItalic.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		A6F18F6923D8404B00ACEF98 = {
 			isa = PBXGroup;
 			children = (
@@ -143,7 +170,9 @@
 		A6F18FB123D99E8D00ACEF98 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				A6F18FCD23D9BD0500ACEF98 /* CircleButton.swift */,
+				A605F09023E17A4500EB727C /* CircleButton.swift */,
+				A605F09123E17A4500EB727C /* DtacStyleButton.swift */,
+				A605F08323E1780A00EB727C /* Fonts */,
 				A6F18FCE23D9BD0500ACEF98 /* UIColor+Extension.swift */,
 				A6F18FCC23D9BD0500ACEF98 /* UIFont+Extension.swift */,
 				A6F18FCB23D9BD0500ACEF98 /* UIView+Extension.swift */,
@@ -256,8 +285,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6F18F8423D8404E00ACEF98 /* LaunchScreen.storyboard in Resources */,
+				A605F08C23E1780A00EB727C /* DTAC2018-Bold.otf in Resources */,
+				A605F08A23E1780A00EB727C /* DTAC2018-BoldItalic.otf in Resources */,
 				A6F18F8123D8404E00ACEF98 /* Assets.xcassets in Resources */,
+				A605F08F23E1780A00EB727C /* DTAC2018-LightItalic.otf in Resources */,
+				A605F08E23E1780A00EB727C /* DTAC2018-Italic.otf in Resources */,
 				A6F18F7F23D8404B00ACEF98 /* Main.storyboard in Resources */,
+				A605F08D23E1780A00EB727C /* DTAC2018-Regular.otf in Resources */,
+				A605F08B23E1780A00EB727C /* DTAC2018-Light.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,13 +317,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6F18FD123D9BD0500ACEF98 /* CircleButton.swift in Sources */,
 				A6F18FD023D9BD0500ACEF98 /* UIFont+Extension.swift in Sources */,
 				A6F18F7C23D8404B00ACEF98 /* SecondViewController.swift in Sources */,
 				A6F18F7A23D8404B00ACEF98 /* FirstViewController.swift in Sources */,
+				A605F09223E17A4500EB727C /* CircleButton.swift in Sources */,
 				A6F18F7623D8404B00ACEF98 /* AppDelegate.swift in Sources */,
 				A6F18FCF23D9BD0500ACEF98 /* UIView+Extension.swift in Sources */,
 				A6F18F7823D8404B00ACEF98 /* SceneDelegate.swift in Sources */,
+				A605F09323E17A4500EB727C /* DtacStyleButton.swift in Sources */,
 				A6F18FD223D9BD0500ACEF98 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "dtacComponentiOS"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "dtac Components for iOS helps developers execute dtac design. Developed by a core team of engineers and UX designers at dtac."
   spec.homepage     = "https://github.com/dtacmobile/dtac-component-ios"
   spec.license      = "MIT"
