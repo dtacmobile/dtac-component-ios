@@ -123,3 +123,27 @@ class DtacStyleButton: UIButton {
     }
     
 }
+
+public extension UIColor {
+
+    @objc
+    class var telenorLink: UIColor {
+        get { return UIColor(red: 0.0, green: 122.0 / 255.0, blue: 208.0 / 255.0, alpha: 1.0) }
+    }
+    
+    @objc
+    class var telenorDarkGray: UIColor {
+        return UIColor(white: 118.0 / 255.0, alpha: 1.0)
+    }
+    
+    @objc
+    class var telenorText: UIColor {
+        return UIColor(white: 26.0 / 255.0, alpha: 1.0)
+    }
+    
+    @objc
+    class var inactiveButtonGrey: UIColor {
+      return UIColor(red: 200.0 / 255.0, green: 207.0 / 255.0, blue: 210.0 / 255.0, alpha: 1.0)
+    }
+}
+
