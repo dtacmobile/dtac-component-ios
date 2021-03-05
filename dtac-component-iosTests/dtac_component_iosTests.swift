@@ -2,7 +2,7 @@
 //  dtac_component_iosTests.swift
 //  dtac-component-iosTests
 //
-//  Created by mac_riverpark on 5/3/2564 BE.
+//  Created by CHAKRIT PANIAM on 5/3/2564 BE.
 //  Copyright © 2564 BE dtac. All rights reserved.
 //
 
