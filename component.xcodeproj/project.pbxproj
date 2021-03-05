@@ -11,14 +11,14 @@
 		1B08EC0425EC9D4F00890723 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B08EC0025EC9D4F00890723 /* CircleButton.swift */; };
 		1B08EC0525EC9D4F00890723 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B08EC0125EC9D4F00890723 /* UIView+Extension.swift */; };
 		1B08EC0625EC9D4F00890723 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B08EC0225EC9D4F00890723 /* UIColor+Extension.swift */; };
-		1B15F27125F1E4DD00F7FF9E /* dtac_component_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B15F26825F1E4DD00F7FF9E /* dtac_component_ios.framework */; };
-		1B15F27825F1E4DD00F7FF9E /* dtac_component_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B15F27725F1E4DD00F7FF9E /* dtac_component_iosTests.swift */; };
-		1B15F27A25F1E4DD00F7FF9E /* dtac_component_ios.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B15F26A25F1E4DD00F7FF9E /* dtac_component_ios.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B15F27D25F1E4DD00F7FF9E /* dtac_component_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B15F26825F1E4DD00F7FF9E /* dtac_component_ios.framework */; };
-		1B15F27E25F1E4DD00F7FF9E /* dtac_component_ios.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1B15F26825F1E4DD00F7FF9E /* dtac_component_ios.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		1B15F29825F1E55D00F7FF9E /* DTAC2018-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1B15F29525F1E55D00F7FF9E /* DTAC2018-Light.otf */; };
-		1B15F29925F1E55D00F7FF9E /* DTAC2018-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1B15F29625F1E55D00F7FF9E /* DTAC2018-Bold.otf */; };
-		1B15F29A25F1E55D00F7FF9E /* DTAC2018-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1B15F29725F1E55D00F7FF9E /* DTAC2018-Regular.otf */; };
+		376B148725F1F03700FE4A6B /* DTAC2018-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 376B148425F1F03700FE4A6B /* DTAC2018-Light.otf */; };
+		376B148825F1F03700FE4A6B /* DTAC2018-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 376B148525F1F03700FE4A6B /* DTAC2018-Bold.otf */; };
+		376B148925F1F03700FE4A6B /* DTAC2018-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 376B148625F1F03700FE4A6B /* DTAC2018-Regular.otf */; };
+		376B14CC25F1F12F00FE4A6B /* dtac_component_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 376B14C325F1F12F00FE4A6B /* dtac_component_ios.framework */; };
+		376B14D325F1F12F00FE4A6B /* dtac_component_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376B14D225F1F12F00FE4A6B /* dtac_component_iosTests.swift */; };
+		376B14D525F1F12F00FE4A6B /* dtac_component_ios.h in Headers */ = {isa = PBXBuildFile; fileRef = 376B14C525F1F12F00FE4A6B /* dtac_component_ios.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		376B14D825F1F12F00FE4A6B /* dtac_component_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 376B14C325F1F12F00FE4A6B /* dtac_component_ios.framework */; };
+		376B14D925F1F12F00FE4A6B /* dtac_component_ios.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 376B14C325F1F12F00FE4A6B /* dtac_component_ios.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A6F18F7623D8404B00ACEF98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F18F7523D8404B00ACEF98 /* AppDelegate.swift */; };
 		A6F18F7823D8404B00ACEF98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F18F7723D8404B00ACEF98 /* SceneDelegate.swift */; };
 		A6F18F7A23D8404B00ACEF98 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F18F7923D8404B00ACEF98 /* FirstViewController.swift */; };
@@ -31,25 +31,25 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1B15F27225F1E4DD00F7FF9E /* PBXContainerItemProxy */ = {
+		376B14CD25F1F12F00FE4A6B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A6F18F6A23D8404B00ACEF98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1B15F26725F1E4DD00F7FF9E;
+			remoteGlobalIDString = 376B14C225F1F12F00FE4A6B;
 			remoteInfo = "dtac-component-ios";
 		};
-		1B15F27425F1E4DD00F7FF9E /* PBXContainerItemProxy */ = {
+		376B14CF25F1F12F00FE4A6B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A6F18F6A23D8404B00ACEF98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A6F18F7123D8404B00ACEF98;
 			remoteInfo = component;
 		};
-		1B15F27B25F1E4DD00F7FF9E /* PBXContainerItemProxy */ = {
+		376B14D625F1F12F00FE4A6B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A6F18F6A23D8404B00ACEF98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1B15F26725F1E4DD00F7FF9E;
+			remoteGlobalIDString = 376B14C225F1F12F00FE4A6B;
 			remoteInfo = "dtac-component-ios";
 		};
 		A6F18F8B23D8404F00ACEF98 /* PBXContainerItemProxy */ = {
@@ -75,7 +75,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				1B15F27E25F1E4DD00F7FF9E /* dtac_component_ios.framework in Embed Frameworks */,
+				376B14D925F1F12F00FE4A6B /* dtac_component_ios.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -87,15 +87,15 @@
 		1B08EC0025EC9D4F00890723 /* CircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
 		1B08EC0125EC9D4F00890723 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		1B08EC0225EC9D4F00890723 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
-		1B15F26825F1E4DD00F7FF9E /* dtac_component_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = dtac_component_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B15F26A25F1E4DD00F7FF9E /* dtac_component_ios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dtac_component_ios.h; sourceTree = "<group>"; };
-		1B15F26B25F1E4DD00F7FF9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1B15F27025F1E4DD00F7FF9E /* dtac-component-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dtac-component-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B15F27725F1E4DD00F7FF9E /* dtac_component_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dtac_component_iosTests.swift; sourceTree = "<group>"; };
-		1B15F27925F1E4DD00F7FF9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1B15F29525F1E55D00F7FF9E /* DTAC2018-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DTAC2018-Light.otf"; sourceTree = "<group>"; };
-		1B15F29625F1E55D00F7FF9E /* DTAC2018-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DTAC2018-Bold.otf"; sourceTree = "<group>"; };
-		1B15F29725F1E55D00F7FF9E /* DTAC2018-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DTAC2018-Regular.otf"; sourceTree = "<group>"; };
+		376B148425F1F03700FE4A6B /* DTAC2018-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DTAC2018-Light.otf"; sourceTree = "<group>"; };
+		376B148525F1F03700FE4A6B /* DTAC2018-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DTAC2018-Bold.otf"; sourceTree = "<group>"; };
+		376B148625F1F03700FE4A6B /* DTAC2018-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DTAC2018-Regular.otf"; sourceTree = "<group>"; };
+		376B14C325F1F12F00FE4A6B /* dtac_component_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = dtac_component_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		376B14C525F1F12F00FE4A6B /* dtac_component_ios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dtac_component_ios.h; sourceTree = "<group>"; };
+		376B14C625F1F12F00FE4A6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		376B14CB25F1F12F00FE4A6B /* dtac-component-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dtac-component-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		376B14D225F1F12F00FE4A6B /* dtac_component_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dtac_component_iosTests.swift; sourceTree = "<group>"; };
+		376B14D425F1F12F00FE4A6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6F18F7223D8404B00ACEF98 /* component.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = component.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6F18F7523D8404B00ACEF98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6F18F7723D8404B00ACEF98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -114,18 +114,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1B15F26525F1E4DD00F7FF9E /* Frameworks */ = {
+		376B14C025F1F12F00FE4A6B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1B15F26D25F1E4DD00F7FF9E /* Frameworks */ = {
+		376B14C825F1F12F00FE4A6B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B15F27125F1E4DD00F7FF9E /* dtac_component_ios.framework in Frameworks */,
+				376B14CC25F1F12F00FE4A6B /* dtac_component_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,7 +133,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B15F27D25F1E4DD00F7FF9E /* dtac_component_ios.framework in Frameworks */,
+				376B14D825F1F12F00FE4A6B /* dtac_component_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,33 +154,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1B15F26925F1E4DD00F7FF9E /* dtac-component-ios */ = {
+		376B148325F1F03700FE4A6B /* Font-dtac2018 */ = {
 			isa = PBXGroup;
 			children = (
-				1B15F26A25F1E4DD00F7FF9E /* dtac_component_ios.h */,
-				1B15F26B25F1E4DD00F7FF9E /* Info.plist */,
+				376B148425F1F03700FE4A6B /* DTAC2018-Light.otf */,
+				376B148525F1F03700FE4A6B /* DTAC2018-Bold.otf */,
+				376B148625F1F03700FE4A6B /* DTAC2018-Regular.otf */,
+			);
+			path = "Font-dtac2018";
+			sourceTree = "<group>";
+		};
+		376B14C425F1F12F00FE4A6B /* dtac-component-ios */ = {
+			isa = PBXGroup;
+			children = (
+				376B14C525F1F12F00FE4A6B /* dtac_component_ios.h */,
+				376B14C625F1F12F00FE4A6B /* Info.plist */,
 			);
 			path = "dtac-component-ios";
 			sourceTree = "<group>";
 		};
-		1B15F27625F1E4DD00F7FF9E /* dtac-component-iosTests */ = {
+		376B14D125F1F12F00FE4A6B /* dtac-component-iosTests */ = {
 			isa = PBXGroup;
 			children = (
-				1B15F27725F1E4DD00F7FF9E /* dtac_component_iosTests.swift */,
-				1B15F27925F1E4DD00F7FF9E /* Info.plist */,
+				376B14D225F1F12F00FE4A6B /* dtac_component_iosTests.swift */,
+				376B14D425F1F12F00FE4A6B /* Info.plist */,
 			);
 			path = "dtac-component-iosTests";
-			sourceTree = "<group>";
-		};
-		1B15F29425F1E55D00F7FF9E /* Font-dtac2018 */ = {
-			isa = PBXGroup;
-			children = (
-				1B15F29525F1E55D00F7FF9E /* DTAC2018-Light.otf */,
-				1B15F29625F1E55D00F7FF9E /* DTAC2018-Bold.otf */,
-				1B15F29725F1E55D00F7FF9E /* DTAC2018-Regular.otf */,
-			);
-			name = "Font-dtac2018";
-			path = "../../../Desktop/Font-dtac2018";
 			sourceTree = "<group>";
 		};
 		A6F18F6923D8404B00ACEF98 = {
@@ -189,8 +188,8 @@
 				A6F18F7423D8404B00ACEF98 /* component */,
 				A6F18F8D23D8404F00ACEF98 /* componentTests */,
 				A6F18F9823D8404F00ACEF98 /* componentUITests */,
-				1B15F26925F1E4DD00F7FF9E /* dtac-component-ios */,
-				1B15F27625F1E4DD00F7FF9E /* dtac-component-iosTests */,
+				376B14C425F1F12F00FE4A6B /* dtac-component-ios */,
+				376B14D125F1F12F00FE4A6B /* dtac-component-iosTests */,
 				A6F18F7323D8404B00ACEF98 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -201,8 +200,8 @@
 				A6F18F7223D8404B00ACEF98 /* component.app */,
 				A6F18F8A23D8404F00ACEF98 /* componentTests.xctest */,
 				A6F18F9523D8404F00ACEF98 /* componentUITests.xctest */,
-				1B15F26825F1E4DD00F7FF9E /* dtac_component_ios.framework */,
-				1B15F27025F1E4DD00F7FF9E /* dtac-component-iosTests.xctest */,
+				376B14C325F1F12F00FE4A6B /* dtac_component_ios.framework */,
+				376B14CB25F1F12F00FE4A6B /* dtac-component-iosTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -210,7 +209,7 @@
 		A6F18F7423D8404B00ACEF98 /* component */ = {
 			isa = PBXGroup;
 			children = (
-				1B15F29425F1E55D00F7FF9E /* Font-dtac2018 */,
+				376B148325F1F03700FE4A6B /* Font-dtac2018 */,
 				A6F18FB123D99E8D00ACEF98 /* Source */,
 				A6F18F7523D8404B00ACEF98 /* AppDelegate.swift */,
 				A6F18F7723D8404B00ACEF98 /* SceneDelegate.swift */,
@@ -256,25 +255,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1B15F26325F1E4DD00F7FF9E /* Headers */ = {
+		376B14BE25F1F12F00FE4A6B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B15F27A25F1E4DD00F7FF9E /* dtac_component_ios.h in Headers */,
+				376B14D525F1F12F00FE4A6B /* dtac_component_ios.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1B15F26725F1E4DD00F7FF9E /* dtac-component-ios */ = {
+		376B14C225F1F12F00FE4A6B /* dtac-component-ios */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1B15F28425F1E4DD00F7FF9E /* Build configuration list for PBXNativeTarget "dtac-component-ios" */;
+			buildConfigurationList = 376B14DA25F1F12F00FE4A6B /* Build configuration list for PBXNativeTarget "dtac-component-ios" */;
 			buildPhases = (
-				1B15F26325F1E4DD00F7FF9E /* Headers */,
-				1B15F26425F1E4DD00F7FF9E /* Sources */,
-				1B15F26525F1E4DD00F7FF9E /* Frameworks */,
-				1B15F26625F1E4DD00F7FF9E /* Resources */,
+				376B14BE25F1F12F00FE4A6B /* Headers */,
+				376B14BF25F1F12F00FE4A6B /* Sources */,
+				376B14C025F1F12F00FE4A6B /* Frameworks */,
+				376B14C125F1F12F00FE4A6B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -282,26 +281,26 @@
 			);
 			name = "dtac-component-ios";
 			productName = "dtac-component-ios";
-			productReference = 1B15F26825F1E4DD00F7FF9E /* dtac_component_ios.framework */;
+			productReference = 376B14C325F1F12F00FE4A6B /* dtac_component_ios.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		1B15F26F25F1E4DD00F7FF9E /* dtac-component-iosTests */ = {
+		376B14CA25F1F12F00FE4A6B /* dtac-component-iosTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1B15F28525F1E4DD00F7FF9E /* Build configuration list for PBXNativeTarget "dtac-component-iosTests" */;
+			buildConfigurationList = 376B14DD25F1F12F00FE4A6B /* Build configuration list for PBXNativeTarget "dtac-component-iosTests" */;
 			buildPhases = (
-				1B15F26C25F1E4DD00F7FF9E /* Sources */,
-				1B15F26D25F1E4DD00F7FF9E /* Frameworks */,
-				1B15F26E25F1E4DD00F7FF9E /* Resources */,
+				376B14C725F1F12F00FE4A6B /* Sources */,
+				376B14C825F1F12F00FE4A6B /* Frameworks */,
+				376B14C925F1F12F00FE4A6B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1B15F27325F1E4DD00F7FF9E /* PBXTargetDependency */,
-				1B15F27525F1E4DD00F7FF9E /* PBXTargetDependency */,
+				376B14CE25F1F12F00FE4A6B /* PBXTargetDependency */,
+				376B14D025F1F12F00FE4A6B /* PBXTargetDependency */,
 			);
 			name = "dtac-component-iosTests";
 			productName = "dtac-component-iosTests";
-			productReference = 1B15F27025F1E4DD00F7FF9E /* dtac-component-iosTests.xctest */;
+			productReference = 376B14CB25F1F12F00FE4A6B /* dtac-component-iosTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		A6F18F7123D8404B00ACEF98 /* component */ = {
@@ -316,7 +315,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				1B15F27C25F1E4DD00F7FF9E /* PBXTargetDependency */,
+				376B14D725F1F12F00FE4A6B /* PBXTargetDependency */,
 			);
 			name = component;
 			productName = component;
@@ -369,10 +368,10 @@
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = dtac;
 				TargetAttributes = {
-					1B15F26725F1E4DD00F7FF9E = {
+					376B14C225F1F12F00FE4A6B = {
 						CreatedOnToolsVersion = 12.4;
 					};
-					1B15F26F25F1E4DD00F7FF9E = {
+					376B14CA25F1F12F00FE4A6B = {
 						CreatedOnToolsVersion = 12.4;
 						TestTargetID = A6F18F7123D8404B00ACEF98;
 					};
@@ -405,21 +404,21 @@
 				A6F18F7123D8404B00ACEF98 /* component */,
 				A6F18F8923D8404F00ACEF98 /* componentTests */,
 				A6F18F9423D8404F00ACEF98 /* componentUITests */,
-				1B15F26725F1E4DD00F7FF9E /* dtac-component-ios */,
-				1B15F26F25F1E4DD00F7FF9E /* dtac-component-iosTests */,
+				376B14C225F1F12F00FE4A6B /* dtac-component-ios */,
+				376B14CA25F1F12F00FE4A6B /* dtac-component-iosTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1B15F26625F1E4DD00F7FF9E /* Resources */ = {
+		376B14C125F1F12F00FE4A6B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1B15F26E25F1E4DD00F7FF9E /* Resources */ = {
+		376B14C925F1F12F00FE4A6B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -431,9 +430,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6F18F8423D8404E00ACEF98 /* LaunchScreen.storyboard in Resources */,
-				1B15F29A25F1E55D00F7FF9E /* DTAC2018-Regular.otf in Resources */,
-				1B15F29925F1E55D00F7FF9E /* DTAC2018-Bold.otf in Resources */,
-				1B15F29825F1E55D00F7FF9E /* DTAC2018-Light.otf in Resources */,
+				376B148925F1F03700FE4A6B /* DTAC2018-Regular.otf in Resources */,
+				376B148825F1F03700FE4A6B /* DTAC2018-Bold.otf in Resources */,
+				376B148725F1F03700FE4A6B /* DTAC2018-Light.otf in Resources */,
 				A6F18F8123D8404E00ACEF98 /* Assets.xcassets in Resources */,
 				A6F18F7F23D8404B00ACEF98 /* Main.storyboard in Resources */,
 			);
@@ -456,18 +455,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1B15F26425F1E4DD00F7FF9E /* Sources */ = {
+		376B14BF25F1F12F00FE4A6B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1B15F26C25F1E4DD00F7FF9E /* Sources */ = {
+		376B14C725F1F12F00FE4A6B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B15F27825F1E4DD00F7FF9E /* dtac_component_iosTests.swift in Sources */,
+				376B14D325F1F12F00FE4A6B /* dtac_component_iosTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,20 +504,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1B15F27325F1E4DD00F7FF9E /* PBXTargetDependency */ = {
+		376B14CE25F1F12F00FE4A6B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1B15F26725F1E4DD00F7FF9E /* dtac-component-ios */;
-			targetProxy = 1B15F27225F1E4DD00F7FF9E /* PBXContainerItemProxy */;
+			target = 376B14C225F1F12F00FE4A6B /* dtac-component-ios */;
+			targetProxy = 376B14CD25F1F12F00FE4A6B /* PBXContainerItemProxy */;
 		};
-		1B15F27525F1E4DD00F7FF9E /* PBXTargetDependency */ = {
+		376B14D025F1F12F00FE4A6B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A6F18F7123D8404B00ACEF98 /* component */;
-			targetProxy = 1B15F27425F1E4DD00F7FF9E /* PBXContainerItemProxy */;
+			targetProxy = 376B14CF25F1F12F00FE4A6B /* PBXContainerItemProxy */;
 		};
-		1B15F27C25F1E4DD00F7FF9E /* PBXTargetDependency */ = {
+		376B14D725F1F12F00FE4A6B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1B15F26725F1E4DD00F7FF9E /* dtac-component-ios */;
-			targetProxy = 1B15F27B25F1E4DD00F7FF9E /* PBXContainerItemProxy */;
+			target = 376B14C225F1F12F00FE4A6B /* dtac-component-ios */;
+			targetProxy = 376B14D625F1F12F00FE4A6B /* PBXContainerItemProxy */;
 		};
 		A6F18F8C23D8404F00ACEF98 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -552,7 +551,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		1B15F28025F1E4DD00F7FF9E /* Debug */ = {
+		376B14DB25F1F12F00FE4A6B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
@@ -571,7 +570,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "th.co.dtac.dtac-component-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = "th.co.dtac.dtac-component-ios.dtac-component-ios";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -581,7 +580,7 @@
 			};
 			name = Debug;
 		};
-		1B15F28125F1E4DD00F7FF9E /* Release */ = {
+		376B14DC25F1F12F00FE4A6B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
@@ -600,7 +599,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "th.co.dtac.dtac-component-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = "th.co.dtac.dtac-component-ios.dtac-component-ios";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -610,13 +609,13 @@
 			};
 			name = Release;
 		};
-		1B15F28225F1E4DD00F7FF9E /* Debug */ = {
+		376B14DE25F1F12F00FE4A6B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GVCE92US57;
+				DEVELOPMENT_TEAM = 8LRXBU679F;
 				INFOPLIST_FILE = "dtac-component-iosTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -624,7 +623,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "th.co.dtac.dtac-component-iosTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "th.co.dtac.dtac-component-ios.dtac-component-iosTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -632,13 +631,13 @@
 			};
 			name = Debug;
 		};
-		1B15F28325F1E4DD00F7FF9E /* Release */ = {
+		376B14DF25F1F12F00FE4A6B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GVCE92US57;
+				DEVELOPMENT_TEAM = 8LRXBU679F;
 				INFOPLIST_FILE = "dtac-component-iosTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -646,7 +645,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "th.co.dtac.dtac-component-iosTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "th.co.dtac.dtac-component-ios.dtac-component-iosTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -891,20 +890,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1B15F28425F1E4DD00F7FF9E /* Build configuration list for PBXNativeTarget "dtac-component-ios" */ = {
+		376B14DA25F1F12F00FE4A6B /* Build configuration list for PBXNativeTarget "dtac-component-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1B15F28025F1E4DD00F7FF9E /* Debug */,
-				1B15F28125F1E4DD00F7FF9E /* Release */,
+				376B14DB25F1F12F00FE4A6B /* Debug */,
+				376B14DC25F1F12F00FE4A6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1B15F28525F1E4DD00F7FF9E /* Build configuration list for PBXNativeTarget "dtac-component-iosTests" */ = {
+		376B14DD25F1F12F00FE4A6B /* Build configuration list for PBXNativeTarget "dtac-component-iosTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1B15F28225F1E4DD00F7FF9E /* Debug */,
-				1B15F28325F1E4DD00F7FF9E /* Release */,
+				376B14DE25F1F12F00FE4A6B /* Debug */,
+				376B14DF25F1F12F00FE4A6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
