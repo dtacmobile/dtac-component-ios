@@ -145,6 +145,20 @@ extension UIColor {
       return UIColor(red: 1.0, green: 1.0, blue: 85.0 / 255.0, alpha: 1.0)
     }
     
+    class var success: UIColor {
+        return UIColor(red: 0.10, green: 0.51, blue: 0.22, alpha: 1.00)
+    }
+    
+    class var nagative: UIColor {
+        return UIColor(red: 0.85, green: 0.15, blue: 0.19, alpha: 1.00)
+    }
+    
+    class var waring: UIColor {
+        UIColor(red: 1.00, green: 0.60, blue: 0.12, alpha: 1.00)
+    }
+    
+    
+    
     convenience init(hex6: UInt32, alpha: CGFloat = 1) {
         let divisor = CGFloat(255)
         let red     = CGFloat((hex6 & 0xFF0000) >> 16) / divisor
