@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'chakiss' => 'Chakrit69@gmail.com' }
-  s.source           = { :git => 'https://github.com/chakiss/dtac-component-ios.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/dtacmobile/dtac-component-ios.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.swift_version = "4.2"
