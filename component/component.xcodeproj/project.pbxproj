@@ -7,49 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B16BA8726314555000CA3C5 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B16BA7B26314555000CA3C5 /* UIFont+Extension.swift */; };
-		1B16BA8826314555000CA3C5 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B16BA7C26314555000CA3C5 /* UIColor+Extension.swift */; };
-		1B16BA8926314555000CA3C5 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B16BA7D26314555000CA3C5 /* UIView+Extension.swift */; };
-		1B16BA8A26314555000CA3C5 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B16BA7E26314555000CA3C5 /* CircleButton.swift */; };
-		1B16BA8B26314555000CA3C5 /* DtacStyleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B16BA7F26314555000CA3C5 /* DtacStyleButton.swift */; };
-		1B16BA8C26314555000CA3C5 /* DTAC2018-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1B16BA8126314555000CA3C5 /* DTAC2018-BoldItalic.otf */; };
-		1B16BA8D26314555000CA3C5 /* DTAC2018-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1B16BA8226314555000CA3C5 /* DTAC2018-Light.otf */; };
-		1B16BA8E26314555000CA3C5 /* DTAC2018-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1B16BA8326314555000CA3C5 /* DTAC2018-Bold.otf */; };
-		1B16BA8F26314555000CA3C5 /* DTAC2018-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1B16BA8426314555000CA3C5 /* DTAC2018-Regular.otf */; };
-		1B16BA9026314555000CA3C5 /* DTAC2018-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1B16BA8526314555000CA3C5 /* DTAC2018-Italic.otf */; };
-		1B16BA9126314555000CA3C5 /* DTAC2018-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1B16BA8626314555000CA3C5 /* DTAC2018-LightItalic.otf */; };
-		1B16BA97263145DD000CA3C5 /* dtacTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B16BA96263145DD000CA3C5 /* dtacTextField.swift */; };
-		1B16BA9F26314740000CA3C5 /* DtacTextFieldShowCaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B16BA9E26314740000CA3C5 /* DtacTextFieldShowCaseViewController.swift */; };
 		1B1AED4B263145120004ACD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1AED4A263145120004ACD5 /* AppDelegate.swift */; };
 		1B1AED4D263145120004ACD5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1AED4C263145120004ACD5 /* SceneDelegate.swift */; };
+		1B1AED4F263145120004ACD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1AED4E263145120004ACD5 /* ViewController.swift */; };
 		1B1AED52263145120004ACD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B1AED50263145120004ACD5 /* Main.storyboard */; };
 		1B1AED54263145130004ACD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B1AED53263145130004ACD5 /* Assets.xcassets */; };
 		1B1AED57263145130004ACD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B1AED55263145130004ACD5 /* LaunchScreen.storyboard */; };
-		1BC2B70226316D710017E2BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2B70126316D710017E2BE /* ViewController.swift */; };
+		1B1AED62263145130004ACD5 /* componentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1AED61263145130004ACD5 /* componentTests.swift */; };
+		1B1AED6D263145130004ACD5 /* componentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1AED6C263145130004ACD5 /* componentUITests.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		1B1AED5E263145130004ACD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B1AED3F263145120004ACD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B1AED46263145120004ACD5;
+			remoteInfo = component;
+		};
+		1B1AED69263145130004ACD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B1AED3F263145120004ACD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B1AED46263145120004ACD5;
+			remoteInfo = component;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		1B16BA7B26314555000CA3C5 /* UIFont+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
-		1B16BA7C26314555000CA3C5 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
-		1B16BA7D26314555000CA3C5 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
-		1B16BA7E26314555000CA3C5 /* CircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
-		1B16BA7F26314555000CA3C5 /* DtacStyleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DtacStyleButton.swift; sourceTree = "<group>"; };
-		1B16BA8126314555000CA3C5 /* DTAC2018-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DTAC2018-BoldItalic.otf"; sourceTree = "<group>"; };
-		1B16BA8226314555000CA3C5 /* DTAC2018-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DTAC2018-Light.otf"; sourceTree = "<group>"; };
-		1B16BA8326314555000CA3C5 /* DTAC2018-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DTAC2018-Bold.otf"; sourceTree = "<group>"; };
-		1B16BA8426314555000CA3C5 /* DTAC2018-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DTAC2018-Regular.otf"; sourceTree = "<group>"; };
-		1B16BA8526314555000CA3C5 /* DTAC2018-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DTAC2018-Italic.otf"; sourceTree = "<group>"; };
-		1B16BA8626314555000CA3C5 /* DTAC2018-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DTAC2018-LightItalic.otf"; sourceTree = "<group>"; };
-		1B16BA96263145DD000CA3C5 /* dtacTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dtacTextField.swift; sourceTree = "<group>"; };
-		1B16BA9E26314740000CA3C5 /* DtacTextFieldShowCaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DtacTextFieldShowCaseViewController.swift; sourceTree = "<group>"; };
 		1B1AED47263145120004ACD5 /* component.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = component.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B1AED4A263145120004ACD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B1AED4C263145120004ACD5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1B1AED4E263145120004ACD5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1B1AED51263145120004ACD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B1AED53263145130004ACD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B1AED56263145130004ACD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B1AED58263145130004ACD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1BC2B70126316D710017E2BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B1AED5D263145130004ACD5 /* componentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = componentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B1AED61263145130004ACD5 /* componentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = componentTests.swift; sourceTree = "<group>"; };
+		1B1AED63263145130004ACD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B1AED68263145130004ACD5 /* componentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = componentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B1AED6C263145130004ACD5 /* componentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = componentUITests.swift; sourceTree = "<group>"; };
+		1B1AED6E263145130004ACD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,48 +59,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1B1AED5A263145130004ACD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B1AED65263145130004ACD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1B16BA7A26314555000CA3C5 /* source */ = {
-			isa = PBXGroup;
-			children = (
-				1B16BA8026314555000CA3C5 /* fonts */,
-				1B16BA95263145CB000CA3C5 /* dtacTextField */,
-				1B16BA7B26314555000CA3C5 /* UIFont+Extension.swift */,
-				1B16BA7C26314555000CA3C5 /* UIColor+Extension.swift */,
-				1B16BA7D26314555000CA3C5 /* UIView+Extension.swift */,
-				1B16BA7E26314555000CA3C5 /* CircleButton.swift */,
-				1B16BA7F26314555000CA3C5 /* DtacStyleButton.swift */,
-			);
-			path = source;
-			sourceTree = "<group>";
-		};
-		1B16BA8026314555000CA3C5 /* fonts */ = {
-			isa = PBXGroup;
-			children = (
-				1B16BA8126314555000CA3C5 /* DTAC2018-BoldItalic.otf */,
-				1B16BA8226314555000CA3C5 /* DTAC2018-Light.otf */,
-				1B16BA8326314555000CA3C5 /* DTAC2018-Bold.otf */,
-				1B16BA8426314555000CA3C5 /* DTAC2018-Regular.otf */,
-				1B16BA8526314555000CA3C5 /* DTAC2018-Italic.otf */,
-				1B16BA8626314555000CA3C5 /* DTAC2018-LightItalic.otf */,
-			);
-			path = fonts;
-			sourceTree = "<group>";
-		};
-		1B16BA95263145CB000CA3C5 /* dtacTextField */ = {
-			isa = PBXGroup;
-			children = (
-				1B16BA96263145DD000CA3C5 /* dtacTextField.swift */,
-			);
-			path = dtacTextField;
-			sourceTree = "<group>";
-		};
 		1B1AED3E263145120004ACD5 = {
 			isa = PBXGroup;
 			children = (
 				1B1AED49263145120004ACD5 /* component */,
+				1B1AED60263145130004ACD5 /* componentTests */,
+				1B1AED6B263145130004ACD5 /* componentUITests */,
 				1B1AED48263145120004ACD5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -110,6 +90,8 @@
 			isa = PBXGroup;
 			children = (
 				1B1AED47263145120004ACD5 /* component.app */,
+				1B1AED5D263145130004ACD5 /* componentTests.xctest */,
+				1B1AED68263145130004ACD5 /* componentUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,17 +99,33 @@
 		1B1AED49263145120004ACD5 /* component */ = {
 			isa = PBXGroup;
 			children = (
-				1B16BA7A26314555000CA3C5 /* source */,
 				1B1AED4A263145120004ACD5 /* AppDelegate.swift */,
 				1B1AED4C263145120004ACD5 /* SceneDelegate.swift */,
-				1BC2B70126316D710017E2BE /* ViewController.swift */,
-				1B16BA9E26314740000CA3C5 /* DtacTextFieldShowCaseViewController.swift */,
+				1B1AED4E263145120004ACD5 /* ViewController.swift */,
 				1B1AED50263145120004ACD5 /* Main.storyboard */,
 				1B1AED53263145130004ACD5 /* Assets.xcassets */,
 				1B1AED55263145130004ACD5 /* LaunchScreen.storyboard */,
 				1B1AED58263145130004ACD5 /* Info.plist */,
 			);
 			path = component;
+			sourceTree = "<group>";
+		};
+		1B1AED60263145130004ACD5 /* componentTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B1AED61263145130004ACD5 /* componentTests.swift */,
+				1B1AED63263145130004ACD5 /* Info.plist */,
+			);
+			path = componentTests;
+			sourceTree = "<group>";
+		};
+		1B1AED6B263145130004ACD5 /* componentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1B1AED6C263145130004ACD5 /* componentUITests.swift */,
+				1B1AED6E263145130004ACD5 /* Info.plist */,
+			);
+			path = componentUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +148,42 @@
 			productReference = 1B1AED47263145120004ACD5 /* component.app */;
 			productType = "com.apple.product-type.application";
 		};
+		1B1AED5C263145130004ACD5 /* componentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B1AED74263145130004ACD5 /* Build configuration list for PBXNativeTarget "componentTests" */;
+			buildPhases = (
+				1B1AED59263145130004ACD5 /* Sources */,
+				1B1AED5A263145130004ACD5 /* Frameworks */,
+				1B1AED5B263145130004ACD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B1AED5F263145130004ACD5 /* PBXTargetDependency */,
+			);
+			name = componentTests;
+			productName = componentTests;
+			productReference = 1B1AED5D263145130004ACD5 /* componentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1B1AED67263145130004ACD5 /* componentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B1AED77263145130004ACD5 /* Build configuration list for PBXNativeTarget "componentUITests" */;
+			buildPhases = (
+				1B1AED64263145130004ACD5 /* Sources */,
+				1B1AED65263145130004ACD5 /* Frameworks */,
+				1B1AED66263145130004ACD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B1AED6A263145130004ACD5 /* PBXTargetDependency */,
+			);
+			name = componentUITests;
+			productName = componentUITests;
+			productReference = 1B1AED68263145130004ACD5 /* componentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -161,6 +195,14 @@
 				TargetAttributes = {
 					1B1AED46263145120004ACD5 = {
 						CreatedOnToolsVersion = 12.4;
+					};
+					1B1AED5C263145130004ACD5 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 1B1AED46263145120004ACD5;
+					};
+					1B1AED67263145130004ACD5 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 1B1AED46263145120004ACD5;
 					};
 				};
 			};
@@ -178,6 +220,8 @@
 			projectRoot = "";
 			targets = (
 				1B1AED46263145120004ACD5 /* component */,
+				1B1AED5C263145130004ACD5 /* componentTests */,
+				1B1AED67263145130004ACD5 /* componentUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -188,14 +232,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B1AED57263145130004ACD5 /* LaunchScreen.storyboard in Resources */,
-				1B16BA8E26314555000CA3C5 /* DTAC2018-Bold.otf in Resources */,
-				1B16BA8C26314555000CA3C5 /* DTAC2018-BoldItalic.otf in Resources */,
 				1B1AED54263145130004ACD5 /* Assets.xcassets in Resources */,
-				1B16BA9126314555000CA3C5 /* DTAC2018-LightItalic.otf in Resources */,
-				1B16BA9026314555000CA3C5 /* DTAC2018-Italic.otf in Resources */,
 				1B1AED52263145120004ACD5 /* Main.storyboard in Resources */,
-				1B16BA8F26314555000CA3C5 /* DTAC2018-Regular.otf in Resources */,
-				1B16BA8D26314555000CA3C5 /* DTAC2018-Light.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B1AED5B263145130004ACD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B1AED66263145130004ACD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,20 +258,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BC2B70226316D710017E2BE /* ViewController.swift in Sources */,
-				1B16BA8A26314555000CA3C5 /* CircleButton.swift in Sources */,
-				1B16BA8B26314555000CA3C5 /* DtacStyleButton.swift in Sources */,
-				1B16BA8926314555000CA3C5 /* UIView+Extension.swift in Sources */,
-				1B16BA97263145DD000CA3C5 /* dtacTextField.swift in Sources */,
+				1B1AED4F263145120004ACD5 /* ViewController.swift in Sources */,
 				1B1AED4B263145120004ACD5 /* AppDelegate.swift in Sources */,
-				1B16BA8726314555000CA3C5 /* UIFont+Extension.swift in Sources */,
-				1B16BA9F26314740000CA3C5 /* DtacTextFieldShowCaseViewController.swift in Sources */,
 				1B1AED4D263145120004ACD5 /* SceneDelegate.swift in Sources */,
-				1B16BA8826314555000CA3C5 /* UIColor+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B1AED59263145130004ACD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B1AED62263145130004ACD5 /* componentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B1AED64263145130004ACD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B1AED6D263145130004ACD5 /* componentUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B1AED5F263145130004ACD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B1AED46263145120004ACD5 /* component */;
+			targetProxy = 1B1AED5E263145130004ACD5 /* PBXContainerItemProxy */;
+		};
+		1B1AED6A263145130004ACD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B1AED46263145120004ACD5 /* component */;
+			targetProxy = 1B1AED69263145130004ACD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1B1AED50263145120004ACD5 /* Main.storyboard */ = {
@@ -395,6 +469,90 @@
 			};
 			name = Release;
 		};
+		1B1AED75263145130004ACD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GVCE92US57;
+				INFOPLIST_FILE = componentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = th.co.dtac.component.componentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/component.app/component";
+			};
+			name = Debug;
+		};
+		1B1AED76263145130004ACD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GVCE92US57;
+				INFOPLIST_FILE = componentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = th.co.dtac.component.componentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/component.app/component";
+			};
+			name = Release;
+		};
+		1B1AED78263145130004ACD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GVCE92US57;
+				INFOPLIST_FILE = componentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = th.co.dtac.component.componentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = component;
+			};
+			name = Debug;
+		};
+		1B1AED79263145130004ACD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GVCE92US57;
+				INFOPLIST_FILE = componentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = th.co.dtac.component.componentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = component;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -412,6 +570,24 @@
 			buildConfigurations = (
 				1B1AED72263145130004ACD5 /* Debug */,
 				1B1AED73263145130004ACD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B1AED74263145130004ACD5 /* Build configuration list for PBXNativeTarget "componentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B1AED75263145130004ACD5 /* Debug */,
+				1B1AED76263145130004ACD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B1AED77263145130004ACD5 /* Build configuration list for PBXNativeTarget "componentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B1AED78263145130004ACD5 /* Debug */,
+				1B1AED79263145130004ACD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

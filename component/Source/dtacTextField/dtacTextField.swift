@@ -5,7 +5,6 @@
 //  Created by CHAKRIT PANIAM on 18/4/2564 BE.
 //  Copyright © 2564 BE dtac. All rights reserved.
 //
-
 import UIKit
 
 open class dtacTextField: UITextField {

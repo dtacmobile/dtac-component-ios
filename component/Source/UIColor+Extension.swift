@@ -158,7 +158,6 @@ extension UIColor {
     }
     
     
-    
     convenience init(hex6: UInt32, alpha: CGFloat = 1) {
         let divisor = CGFloat(255)
         let red     = CGFloat((hex6 & 0xFF0000) >> 16) / divisor
