@@ -116,7 +116,7 @@ class CircleButton: UIButton {
         
         amountTitleLable.adjustsFontSizeToFitWidth = true
         amountTitleLable.minimumScaleFactor = 0.5
-        amountUnitLable.textColor = UIColor.telenortext
+        amountUnitLable.textColor = UIColor.telenorText
         amountTitleLable.font = UIFont.dtacBold.body
         
         self.addView(amountUnitLable)
@@ -126,7 +126,7 @@ class CircleButton: UIButton {
         amountUnitLable.topAnchor.constraint(equalTo: amountTitleLable.bottomAnchor).isActive = true
         amountUnitLable.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: CGFloat(12.0)).isActive = true
         amountUnitLable.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -CGFloat(12.0)).isActive = true
-        amountUnitLable.textColor = UIColor.brownishGrey
+        amountUnitLable.textColor = UIColor.telenorDarkGray
         amountUnitLable.font = UIFont.dtacBold.small
 
         
