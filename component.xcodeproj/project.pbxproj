@@ -16,7 +16,6 @@
 		1B16BA8F26314555000CA3C5 /* DTAC2018-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1B16BA8426314555000CA3C5 /* DTAC2018-Regular.otf */; };
 		1B16BA9026314555000CA3C5 /* DTAC2018-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1B16BA8526314555000CA3C5 /* DTAC2018-Italic.otf */; };
 		1B16BA9126314555000CA3C5 /* DTAC2018-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1B16BA8626314555000CA3C5 /* DTAC2018-LightItalic.otf */; };
-		1B16BA97263145DD000CA3C5 /* dtacTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B16BA96263145DD000CA3C5 /* dtacTextField.swift */; };
 		1B16BA9F26314740000CA3C5 /* DtacTextFieldShowCaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B16BA9E26314740000CA3C5 /* DtacTextFieldShowCaseViewController.swift */; };
 		1B1AED4B263145120004ACD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1AED4A263145120004ACD5 /* AppDelegate.swift */; };
 		1B1AED4D263145120004ACD5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1AED4C263145120004ACD5 /* SceneDelegate.swift */; };
@@ -26,6 +25,7 @@
 		1BC2B70226316D710017E2BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2B70126316D710017E2BE /* ViewController.swift */; };
 		1BC2B70C26316EB60017E2BE /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2B70A26316EB60017E2BE /* UIView+Extension.swift */; };
 		1BC2B70D26316EB60017E2BE /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2B70B26316EB60017E2BE /* CircleButton.swift */; };
+		1BC2B71526316FAE0017E2BE /* dtacTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2B71426316FAE0017E2BE /* dtacTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,7 +38,6 @@
 		1B16BA8426314555000CA3C5 /* DTAC2018-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DTAC2018-Regular.otf"; sourceTree = "<group>"; };
 		1B16BA8526314555000CA3C5 /* DTAC2018-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DTAC2018-Italic.otf"; sourceTree = "<group>"; };
 		1B16BA8626314555000CA3C5 /* DTAC2018-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DTAC2018-LightItalic.otf"; sourceTree = "<group>"; };
-		1B16BA96263145DD000CA3C5 /* dtacTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dtacTextField.swift; sourceTree = "<group>"; };
 		1B16BA9E26314740000CA3C5 /* DtacTextFieldShowCaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DtacTextFieldShowCaseViewController.swift; sourceTree = "<group>"; };
 		1B1AED47263145120004ACD5 /* component.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = component.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B1AED4A263145120004ACD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -50,6 +49,7 @@
 		1BC2B70126316D710017E2BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1BC2B70A26316EB60017E2BE /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		1BC2B70B26316EB60017E2BE /* CircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		1BC2B71426316FAE0017E2BE /* dtacTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dtacTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +66,8 @@
 		1B16BA7A26314555000CA3C5 /* source */ = {
 			isa = PBXGroup;
 			children = (
+				1BC2B71326316FA20017E2BE /* dtacTextField */,
 				1B16BA8026314555000CA3C5 /* fonts */,
-				1B16BA95263145CB000CA3C5 /* dtacTextField */,
 				1B16BA7B26314555000CA3C5 /* UIFont+Extension.swift */,
 				1B16BA7C26314555000CA3C5 /* UIColor+Extension.swift */,
 				1B16BA7F26314555000CA3C5 /* DtacStyleButton.swift */,
@@ -88,14 +88,6 @@
 				1B16BA8626314555000CA3C5 /* DTAC2018-LightItalic.otf */,
 			);
 			path = fonts;
-			sourceTree = "<group>";
-		};
-		1B16BA95263145CB000CA3C5 /* dtacTextField */ = {
-			isa = PBXGroup;
-			children = (
-				1B16BA96263145DD000CA3C5 /* dtacTextField.swift */,
-			);
-			path = dtacTextField;
 			sourceTree = "<group>";
 		};
 		1B1AED3E263145120004ACD5 = {
@@ -128,6 +120,14 @@
 				1B1AED58263145130004ACD5 /* Info.plist */,
 			);
 			path = component;
+			sourceTree = "<group>";
+		};
+		1BC2B71326316FA20017E2BE /* dtacTextField */ = {
+			isa = PBXGroup;
+			children = (
+				1BC2B71426316FAE0017E2BE /* dtacTextField.swift */,
+			);
+			path = dtacTextField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,8 +208,8 @@
 			files = (
 				1BC2B70226316D710017E2BE /* ViewController.swift in Sources */,
 				1B16BA8B26314555000CA3C5 /* DtacStyleButton.swift in Sources */,
-				1B16BA97263145DD000CA3C5 /* dtacTextField.swift in Sources */,
 				1BC2B70C26316EB60017E2BE /* UIView+Extension.swift in Sources */,
+				1BC2B71526316FAE0017E2BE /* dtacTextField.swift in Sources */,
 				1B1AED4B263145120004ACD5 /* AppDelegate.swift in Sources */,
 				1BC2B70D26316EB60017E2BE /* CircleButton.swift in Sources */,
 				1B16BA8726314555000CA3C5 /* UIFont+Extension.swift in Sources */,
