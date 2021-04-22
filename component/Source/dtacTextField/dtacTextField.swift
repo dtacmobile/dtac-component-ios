@@ -8,58 +8,103 @@
 
 import UIKit
 
-open class dtacTextField: UITextField {
+@IBDesignable class dtacTextField: UIView {
     
-    lazy var innerShadow: CALayer = {
-          let innerShadow = CALayer()
-          layer.addSublayer(innerShadow)
-          return innerShadow
-      }()
+    @IBOutlet var contentView: UIView!
+    @IBOutlet var titleLabel: UILabel!
+    @IBOutlet var descritionLabel: UILabel!
+    @IBOutlet var textField: UITextField!
     
-    let padding = UIEdgeInsets(top: 0, left: 10, bottom: 0, right: 10)
     
-//    override open func textRect(forBounds bounds: CGRect) -> CGRect {
-//        return bounds.insetBy(dx: <#T##CGFloat#>, dy: <#T##CGFloat#>)
-//    }
-//    
-//    override open func placeholderRect(forBounds bounds: CGRect) -> CGRect {
-//        
-//        return bounds.insetBy(dx: padding, dy: padding)
-//    }
-//    
-//    override open func editingRect(forBounds bounds: CGRect) -> CGRect {
-//        return bounds.insetBy(dx: padding, dy: padding)
-//    }
-//    
-    func setup() {
-        self.layer.borderColor = UIColor.shadow.cgColor
-        self.layer.borderWidth = 1
-        self.layer.cornerRadius = 3
-        self.clipsToBounds = true
-        
-        self.placeholder = "Start typing"
-        self.font = UIFont.dtacRegular.body
+    
+    override func prepareForInterfaceBuilder(){
+        titleLabel.text = "title"
+        descritionLabel.text = "description"
+        textField.text = ""
+    }
+    
+    
+    @IBInspectable public var text: String = "" {
+        didSet{
+            self.textField.text = text
+        }
+    }
+    
+    @IBInspectable public var titleText: String = "" {
+        didSet{
+            self.titleLabel.isHidden = false
+            self.titleLabel.text = titleText
+        }
+    }
+    
+    @IBInspectable public var descriptionText: String = "" {
+        didSet{
+            self.descritionLabel.isHidden = false
+            self.descritionLabel.text = descriptionText
+        }
     }
     
     override init(frame: CGRect) {
         super.init(frame: frame)
         setup()
     }
-    required public init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
+    
+    public required init?(coder: NSCoder) {
+        super.init(coder: coder)
         setup()
     }
+
+
+    let padding = UIEdgeInsets(top: 0, left: 10, bottom: 0, right: 10)
     
+
+    private func setup() {
+        
+        let bundle = Bundle(for: dtacTextField.self)
+        bundle.loadNibNamed(String(describing: dtacTextField.self), owner: self, options: nil)
+        addSubview(contentView)
+        contentView.frame = self.bounds
+        contentView.autoresizingMask = [.flexibleWidth , .flexibleHeight]
+        
+    
+        self.textField.layer.borderColor = UIColor.shadow.cgColor
+        self.textField.layer.borderWidth = 1
+        self.textField.layer.cornerRadius = 3
+        self.textField.clipsToBounds = true
+        self.textField.placeholder = "hint"
+        self.textField.font = UIFont.dtacRegular.body
+        
+        self.titleLabel.isHidden = true
+        self.descritionLabel.isHidden = true
+        
+    }
+    
+    open func textRect(forBounds bounds: CGRect) -> CGRect {
+        return bounds.inset(by: padding)
+    }
+    
+    open func placeholderRect(forBounds bounds: CGRect) -> CGRect {
+        
+        return bounds.inset(by: padding)
+    }
+    
+    open func editingRect(forBounds bounds: CGRect) -> CGRect {
+        return bounds.inset(by: padding)
+    }
+    
+
     func positive() {
-        self.layer.borderColor = UIColor.success.cgColor
+        self.textField.layer.borderColor = UIColor.success.cgColor
+        self.descritionLabel.textColor = UIColor.success
     }
-    
+
     func negative() {
-        self.layer.borderColor = UIColor.nagative.cgColor
+        self.textField.layer.borderColor = UIColor.nagative.cgColor
+        self.descritionLabel.textColor = UIColor.nagative
     }
-    
+
     func waring() {
-        self.layer.borderColor = UIColor.waring.cgColor
+        self.textField.layer.borderColor = UIColor.waring.cgColor
     }
     
 }

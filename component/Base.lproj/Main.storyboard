@@ -46,19 +46,50 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vVy-sa-C4a" customClass="dtacTextField" customModule="component" customModuleProvider="target">
-                                <rect key="frame" x="64" y="110" width="248" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vE9-FV-2cL" customClass="dtacTextField" customModule="component" customModuleProvider="target">
+                                <rect key="frame" x="20" y="111" width="374" height="40"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="4v3-0m-UMw"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iLu-FL-Q0l" customClass="dtacTextField" customModule="component" customModuleProvider="target">
+                                <rect key="frame" x="20" y="180" width="374" height="75"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="X7Q-KB-QZU"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="56e-1W-GUu" customClass="dtacTextField" customModule="component" customModuleProvider="target">
+                                <rect key="frame" x="20" y="296" width="374" height="120"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="AzD-iI-kC9"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bgt-Hl-e1k"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="iLu-FL-Q0l" firstAttribute="centerX" secondItem="bgt-Hl-e1k" secondAttribute="centerX" id="3wd-xz-0ZQ"/>
+                            <constraint firstItem="vE9-FV-2cL" firstAttribute="leading" secondItem="bgt-Hl-e1k" secondAttribute="leading" constant="20" id="64f-yA-dsU"/>
+                            <constraint firstItem="vE9-FV-2cL" firstAttribute="top" secondItem="bgt-Hl-e1k" secondAttribute="top" constant="23" id="7q5-lK-i9L"/>
+                            <constraint firstItem="56e-1W-GUu" firstAttribute="top" secondItem="iLu-FL-Q0l" secondAttribute="bottom" constant="41" id="DKE-GX-ORd"/>
+                            <constraint firstItem="bgt-Hl-e1k" firstAttribute="trailing" secondItem="iLu-FL-Q0l" secondAttribute="trailing" constant="20" id="FC9-Le-BL2"/>
+                            <constraint firstItem="iLu-FL-Q0l" firstAttribute="leading" secondItem="bgt-Hl-e1k" secondAttribute="leading" constant="20" id="IuD-A8-evX"/>
+                            <constraint firstItem="56e-1W-GUu" firstAttribute="leading" secondItem="bgt-Hl-e1k" secondAttribute="leading" constant="20" id="MNL-iD-vcg"/>
+                            <constraint firstItem="56e-1W-GUu" firstAttribute="centerX" secondItem="bgt-Hl-e1k" secondAttribute="centerX" id="Ml6-ID-Ci6"/>
+                            <constraint firstItem="vE9-FV-2cL" firstAttribute="centerX" secondItem="bgt-Hl-e1k" secondAttribute="centerX" id="bof-00-oUU"/>
+                            <constraint firstItem="iLu-FL-Q0l" firstAttribute="top" secondItem="vE9-FV-2cL" secondAttribute="bottom" constant="29" id="cSB-Uq-ECA"/>
+                            <constraint firstItem="bgt-Hl-e1k" firstAttribute="trailing" secondItem="vE9-FV-2cL" secondAttribute="trailing" constant="20" id="fNb-ZP-yaZ"/>
+                            <constraint firstItem="bgt-Hl-e1k" firstAttribute="trailing" secondItem="56e-1W-GUu" secondAttribute="trailing" constant="20" id="pHz-SO-RfJ"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="SnQ-QP-aG7"/>
                     <connections>
-                        <outlet property="textField" destination="vVy-sa-C4a" id="JRM-Dp-Aq5"/>
+                        <outlet property="textField" destination="vE9-FV-2cL" id="ZU4-SD-br1"/>
+                        <outlet property="textFieldWithDescription" destination="56e-1W-GUu" id="umg-aj-scA"/>
+                        <outlet property="textFieldWithTitle" destination="iLu-FL-Q0l" id="f4f-UW-Xla"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uu2-SW-3Dd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

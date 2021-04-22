@@ -11,12 +11,25 @@ class DtacTextFieldShowCaseViewController: UIViewController {
 
     
     @IBOutlet var textField: dtacTextField!
+    @IBOutlet var textFieldWithTitle: dtacTextField!
+    @IBOutlet var textFieldWithDescription: dtacTextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        textField.positive()
+        textFieldWithTitle.titleText = "หัวข้อ"
+        
     }
 
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+            self.textFieldWithDescription.descriptionText = "Error!"
+            self.textFieldWithDescription.negative()
+        }
+        
+        
+    }
 }
 
