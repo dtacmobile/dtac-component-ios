@@ -24,7 +24,6 @@
 		1B1AED57263145130004ACD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B1AED55263145130004ACD5 /* LaunchScreen.storyboard */; };
 		1BC2B70226316D710017E2BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2B70126316D710017E2BE /* ViewController.swift */; };
 		1BC2B70C26316EB60017E2BE /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2B70A26316EB60017E2BE /* UIView+Extension.swift */; };
-		1BC2B70D26316EB60017E2BE /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2B70B26316EB60017E2BE /* CircleButton.swift */; };
 		1BC2B71526316FAE0017E2BE /* dtacTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2B71426316FAE0017E2BE /* dtacTextField.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,7 +47,6 @@
 		1B1AED58263145130004ACD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BC2B70126316D710017E2BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1BC2B70A26316EB60017E2BE /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
-		1BC2B70B26316EB60017E2BE /* CircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
 		1BC2B71426316FAE0017E2BE /* dtacTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dtacTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,7 +69,6 @@
 				1B16BA7B26314555000CA3C5 /* UIFont+Extension.swift */,
 				1B16BA7C26314555000CA3C5 /* UIColor+Extension.swift */,
 				1B16BA7F26314555000CA3C5 /* DtacStyleButton.swift */,
-				1BC2B70B26316EB60017E2BE /* CircleButton.swift */,
 				1BC2B70A26316EB60017E2BE /* UIView+Extension.swift */,
 			);
 			path = source;
@@ -211,7 +208,6 @@
 				1BC2B70C26316EB60017E2BE /* UIView+Extension.swift in Sources */,
 				1BC2B71526316FAE0017E2BE /* dtacTextField.swift in Sources */,
 				1B1AED4B263145120004ACD5 /* AppDelegate.swift in Sources */,
-				1BC2B70D26316EB60017E2BE /* CircleButton.swift in Sources */,
 				1B16BA8726314555000CA3C5 /* UIFont+Extension.swift in Sources */,
 				1B16BA9F26314740000CA3C5 /* DtacTextFieldShowCaseViewController.swift in Sources */,
 				1B1AED4D263145120004ACD5 /* SceneDelegate.swift in Sources */,
