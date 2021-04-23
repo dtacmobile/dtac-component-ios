@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="DTAC2018-Regular.otf">
+            <string>DTAC2018-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="dtacTextField" customModule="component" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="ZwP-0G-yc0" id="TIG-q0-DAT"/>
+                <outlet property="descritionLabel" destination="tBw-Wq-PPA" id="GZk-wz-syW"/>
+                <outlet property="textField" destination="H2c-4B-Glu" id="hog-Tm-VbH"/>
+                <outlet property="titleLabel" destination="fHE-4S-UYN" id="Swi-cc-vlg"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="dtacTextField" id="ZwP-0G-yc0">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="108"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="vaB-a1-jBS">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="108"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fHE-4S-UYN">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="23"/>
+                            <fontDescription key="fontDescription" name="DTAC2018-Regular" family="DTAC 2018" pointSize="16"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="H2c-4B-Glu">
+                            <rect key="frame" x="0.0" y="33" width="414" height="42"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tBw-Wq-PPA">
+                            <rect key="frame" x="0.0" y="85" width="414" height="23"/>
+                            <fontDescription key="fontDescription" name="DTAC2018-Regular" family="DTAC 2018" pointSize="16"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Jhe-jR-lAP"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="Jhe-jR-lAP" firstAttribute="bottom" secondItem="vaB-a1-jBS" secondAttribute="bottom" id="Qfl-Y0-1aT"/>
+                <constraint firstItem="vaB-a1-jBS" firstAttribute="leading" secondItem="Jhe-jR-lAP" secondAttribute="leading" id="ZPT-Id-9h9"/>
+                <constraint firstItem="Jhe-jR-lAP" firstAttribute="trailing" secondItem="vaB-a1-jBS" secondAttribute="trailing" id="i6D-xW-xRJ"/>
+                <constraint firstItem="vaB-a1-jBS" firstAttribute="top" secondItem="ZwP-0G-yc0" secondAttribute="top" id="sw3-lr-SZ6"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-42.028985507246382" y="-374.33035714285711"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

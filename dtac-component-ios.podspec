@@ -1,31 +1,41 @@
 #
-#  Be sure to run `pod spec lint dtac-component-ios.podspec' to ensure this is a
-#  valid spec and to remove all comments including this before submitting the spec.
+# Be sure to run `pod lib lint dtac-component-ios.podspec' to ensure this is a
+# valid spec before submitting.
 #
-#  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
-#  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
+# Any lines starting with a # are optional, but their use is encouraged
+# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
 #
 
-Pod::Spec.new do |spec|
+Pod::Spec.new do |s|
+  s.name             = 'dtac-component-ios'
+  s.version          = '0.7.0'
+  s.summary          = 'this is a pod component for use development iOS'
 
-  spec.name         = "dtac-component-ios"
-  spec.version      = "0.0.6"
-  spec.summary      = "dtac Components for iOS helps developers execute dtac design. Developed by a core team of engineers and UX designers at dtac."
-  spec.description  = <<-DESC
-  dtac Components for iOS helps developers execute dtac design. Developed by a core team of engineers and UX designers at dtac. 🤫
-                   DESC
-  spec.homepage     = "https://github.com/dtacmobile/dtac-component-ios"
-  spec.license      = { :type => "MIT", :file => "LICENSE" }
-  spec.author             = { "dtac" => "mobileapp@dtac.co.th" }
-  spec.ios.deployment_target = "11.0"
-  spec.source       = { :git => "https://github.com/dtacmobile/dtac-component-ios.git", :tag => "#{spec.version}" }
+# This description is used to generate tags and improve search results.
+#   * Think: What does it do? Why did you write it? What is the focus?
+#   * Try to keep it short, snappy and to the point.
+#   * Write the description between the DESC delimiters below.
+#   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  spec.swift_versions = ['5.0', '5.1']
-  spec.source_files  =   "dtac-component-ios/*.{h,m,swift}"
+  s.description      = 'this is a pod component for use development iOS. 😀'
 
-end
-
-
-
-
+  s.homepage         = 'https://github.com/dtacmobile/dtac-component-ios'
   
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.author           = { 'chakiss' => 'Chakrit69@gmail.com' }
+  s.source           = { :git => 'https://github.com/dtacmobile/dtac-component-ios.git', :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+
+  s.swift_version = "4.2"
+  s.ios.deployment_target = '10.0'
+
+  s.source_files = 'component/source/**/*'
+  
+  # s.resource_bundles = {
+  #   'dtac-component-ios' => ['dtac-component-ios/Assets/*.png']
+  # }
+
+  # s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.frameworks = 'UIKit', 'MapKit'
+  # s.dependency 'AFNetworking', '~> 2.3'
+end
