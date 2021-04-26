@@ -53,14 +53,14 @@ class DtacStyleButton: UIButton {
     override init(frame: CGRect) {
         super.init(frame: frame)
         self.roundCorner(radius: cornerRadius)
-        self.titleLabel?.font = UIFont.dtacRegular.body2
+//        self.titleLabel?.font = UIFont.dtacRegular.body2
         updateStyle()
     }
     
     required init?(coder: NSCoder) {
         super.init(coder: coder)
         self.roundCorner(radius: cornerRadius)
-        self.titleLabel?.font = UIFont.dtacRegular.body2
+//        self.titleLabel?.font = UIFont.dtacRegular.body2
         updateStyle()
     }
     

@@ -27,7 +27,73 @@
 		1BC2B71526316FAE0017E2BE /* dtacTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2B71426316FAE0017E2BE /* dtacTextField.swift */; };
 		1BC2B767263186290017E2BE /* dtacTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BC2B766263186290017E2BE /* dtacTextField.xib */; };
 		37EECF6426327575005D1D69 /* DtacColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECF6326327575005D1D69 /* DtacColor.swift */; };
-		37EECF6B263278D9005D1D69 /* DtacTypographyH1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECF6A263278D9005D1D69 /* DtacTypographyH1.swift */; };
+		37EECF6B263278D9005D1D69 /* dtacTypographyH1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECF6A263278D9005D1D69 /* dtacTypographyH1.swift */; };
+		37EECF7126329E02005D1D69 /* dtacTypographyH1Black.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECF7026329E02005D1D69 /* dtacTypographyH1Black.swift */; };
+		37EECF9026368782005D1D69 /* dtacTypographyH1TelenorLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECF8F26368782005D1D69 /* dtacTypographyH1TelenorLink.swift */; };
+		37EECF932636880F005D1D69 /* dtacTypographyH1Blue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECF922636880F005D1D69 /* dtacTypographyH1Blue.swift */; };
+		37EECF9626368856005D1D69 /* dtacTypographyH1PaleBlue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECF9526368856005D1D69 /* dtacTypographyH1PaleBlue.swift */; };
+		37EECF9E263688EA005D1D69 /* dtacTypographyH2Blue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECF99263688EA005D1D69 /* dtacTypographyH2Blue.swift */; };
+		37EECF9F263688EA005D1D69 /* dtacTypographyH2PaleBlue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECF9A263688EA005D1D69 /* dtacTypographyH2PaleBlue.swift */; };
+		37EECFA0263688EA005D1D69 /* dtacTypographyH2TelenorLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECF9B263688EA005D1D69 /* dtacTypographyH2TelenorLink.swift */; };
+		37EECFA1263688EA005D1D69 /* dtacTypographyH2Black.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECF9C263688EA005D1D69 /* dtacTypographyH2Black.swift */; };
+		37EECFA2263688EA005D1D69 /* dtacTypographyH2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECF9D263688EA005D1D69 /* dtacTypographyH2.swift */; };
+		37EECFAB263689DC005D1D69 /* dtacTypographyH2BoldTelenorLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECFA6263689DC005D1D69 /* dtacTypographyH2BoldTelenorLink.swift */; };
+		37EECFAC263689DC005D1D69 /* dtacTypographyH2BoldBlack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECFA7263689DC005D1D69 /* dtacTypographyH2BoldBlack.swift */; };
+		37EECFAD263689DC005D1D69 /* dtacTypographyH2Bold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECFA8263689DC005D1D69 /* dtacTypographyH2Bold.swift */; };
+		37EECFAE263689DC005D1D69 /* dtacTypographyH2BoldPaleBlue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECFA9263689DC005D1D69 /* dtacTypographyH2BoldPaleBlue.swift */; };
+		37EECFAF263689DC005D1D69 /* dtacTypographyH2BoldBlue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECFAA263689DC005D1D69 /* dtacTypographyH2BoldBlue.swift */; };
+		37EECFBE26368AB0005D1D69 /* dtacTypographyH3BoldPaleBlue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECFB326368AB0005D1D69 /* dtacTypographyH3BoldPaleBlue.swift */; };
+		37EECFBF26368AB0005D1D69 /* dtacTypographyH3BoldTelenorLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECFB426368AB0005D1D69 /* dtacTypographyH3BoldTelenorLink.swift */; };
+		37EECFC026368AB0005D1D69 /* dtacTypographyH3BoldBlue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECFB526368AB0005D1D69 /* dtacTypographyH3BoldBlue.swift */; };
+		37EECFC126368AB0005D1D69 /* dtacTypographyH3BoldBlack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECFB626368AB0005D1D69 /* dtacTypographyH3BoldBlack.swift */; };
+		37EECFC226368AB0005D1D69 /* dtacTypographyH3Bold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECFB726368AB0005D1D69 /* dtacTypographyH3Bold.swift */; };
+		37EECFC326368AB0005D1D69 /* dtacTypographyH3TelenorLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECFB926368AB0005D1D69 /* dtacTypographyH3TelenorLink.swift */; };
+		37EECFC426368AB0005D1D69 /* dtacTypographyH3Black.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECFBA26368AB0005D1D69 /* dtacTypographyH3Black.swift */; };
+		37EECFC526368AB0005D1D69 /* dtacTypographyH3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECFBB26368AB0005D1D69 /* dtacTypographyH3.swift */; };
+		37EECFC626368AB0005D1D69 /* dtacTypographyH3Blue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECFBC26368AB0005D1D69 /* dtacTypographyH3Blue.swift */; };
+		37EECFC726368AB0005D1D69 /* dtacTypographyH3PaleBlue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECFBD26368AB0005D1D69 /* dtacTypographyH3PaleBlue.swift */; };
+		37EECFD626368C00005D1D69 /* dtacTypographyBodyBlue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECFCB26368C00005D1D69 /* dtacTypographyBodyBlue.swift */; };
+		37EECFD726368C00005D1D69 /* dtacTypographyBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECFCC26368C00005D1D69 /* dtacTypographyBody.swift */; };
+		37EECFD826368C00005D1D69 /* dtacTypographyBodyTelenorLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECFCD26368C00005D1D69 /* dtacTypographyBodyTelenorLink.swift */; };
+		37EECFD926368C00005D1D69 /* dtacTypographyBodyBlack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECFCE26368C00005D1D69 /* dtacTypographyBodyBlack.swift */; };
+		37EECFDA26368C00005D1D69 /* dtacTypographyBodyPaleBlue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECFCF26368C00005D1D69 /* dtacTypographyBodyPaleBlue.swift */; };
+		37EECFDB26368C00005D1D69 /* dtacTypographyBodyBoldBlue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECFD126368C00005D1D69 /* dtacTypographyBodyBoldBlue.swift */; };
+		37EECFDC26368C00005D1D69 /* dtacTypographyBodyBoldBlack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECFD226368C00005D1D69 /* dtacTypographyBodyBoldBlack.swift */; };
+		37EECFDD26368C00005D1D69 /* dtacTypographyBodyBoldPaleBlue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECFD326368C00005D1D69 /* dtacTypographyBodyBoldPaleBlue.swift */; };
+		37EECFDE26368C00005D1D69 /* dtacTypographyBodyBold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECFD426368C00005D1D69 /* dtacTypographyBodyBold.swift */; };
+		37EECFDF26368C00005D1D69 /* dtacTypographyBodyBoldTelenorLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECFD526368C00005D1D69 /* dtacTypographyBodyBoldTelenorLink.swift */; };
+		37EECFEE26368D02005D1D69 /* dtacTypographyBodySmallTelenorLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECFE326368D02005D1D69 /* dtacTypographyBodySmallTelenorLink.swift */; };
+		37EECFEF26368D02005D1D69 /* dtacTypographyBodySmallBlack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECFE426368D02005D1D69 /* dtacTypographyBodySmallBlack.swift */; };
+		37EECFF026368D02005D1D69 /* dtacTypographyBodySmallBlue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECFE526368D02005D1D69 /* dtacTypographyBodySmallBlue.swift */; };
+		37EECFF126368D02005D1D69 /* dtacTypographyBodySmall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECFE626368D02005D1D69 /* dtacTypographyBodySmall.swift */; };
+		37EECFF226368D02005D1D69 /* dtacTypographyBodySmallPaleBlue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECFE726368D02005D1D69 /* dtacTypographyBodySmallPaleBlue.swift */; };
+		37EECFF326368D02005D1D69 /* dtacTypographyBodySmallBoldBlue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECFE926368D02005D1D69 /* dtacTypographyBodySmallBoldBlue.swift */; };
+		37EECFF426368D02005D1D69 /* dtacTypographyBodySmallBold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECFEA26368D02005D1D69 /* dtacTypographyBodySmallBold.swift */; };
+		37EECFF526368D02005D1D69 /* dtacTypographyBodySmallBoldPaleBlue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECFEB26368D02005D1D69 /* dtacTypographyBodySmallBoldPaleBlue.swift */; };
+		37EECFF626368D02005D1D69 /* dtacTypographyBodySmallBoldBlack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECFEC26368D02005D1D69 /* dtacTypographyBodySmallBoldBlack.swift */; };
+		37EECFF726368D02005D1D69 /* dtacTypographyBodySmallBoldTelenorLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECFED26368D02005D1D69 /* dtacTypographyBodySmallBoldTelenorLink.swift */; };
+		37EED00626368FC8005D1D69 /* dtacTypographyMicroBlack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECFFB26368FC8005D1D69 /* dtacTypographyMicroBlack.swift */; };
+		37EED00726368FC8005D1D69 /* dtacTypographyMicro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECFFC26368FC8005D1D69 /* dtacTypographyMicro.swift */; };
+		37EED00826368FC8005D1D69 /* dtacTypographyMicroPaleBlue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECFFD26368FC8005D1D69 /* dtacTypographyMicroPaleBlue.swift */; };
+		37EED00926368FC8005D1D69 /* dtacTypographyMicroTelenorLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECFFE26368FC8005D1D69 /* dtacTypographyMicroTelenorLink.swift */; };
+		37EED00A26368FC8005D1D69 /* dtacTypographyMicroBlue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECFFF26368FC8005D1D69 /* dtacTypographyMicroBlue.swift */; };
+		37EED00B26368FC8005D1D69 /* dtacTypographyMicroBoldPaleBlue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EED00126368FC8005D1D69 /* dtacTypographyMicroBoldPaleBlue.swift */; };
+		37EED00C26368FC8005D1D69 /* dtacTypographyMicroBoldBlue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EED00226368FC8005D1D69 /* dtacTypographyMicroBoldBlue.swift */; };
+		37EED00D26368FC8005D1D69 /* dtacTypographyMicroBold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EED00326368FC8005D1D69 /* dtacTypographyMicroBold.swift */; };
+		37EED00E26368FC8005D1D69 /* dtacTypographyMicroBoldBlack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EED00426368FC8005D1D69 /* dtacTypographyMicroBoldBlack.swift */; };
+		37EED00F26368FC8005D1D69 /* dtacTypographyMicroBoldTelenorLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EED00526368FC8005D1D69 /* dtacTypographyMicroBoldTelenorLink.swift */; };
+		37EED012263692B0005D1D69 /* UIDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EED011263692B0005D1D69 /* UIDevice+Extension.swift */; };
+		37EED01526369D99005D1D69 /* dtacTypographyH1TelenorBlue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EED01426369D99005D1D69 /* dtacTypographyH1TelenorBlue.swift */; };
+		37EED01826369E14005D1D69 /* dtacTypographyH2BoldTelenorBlue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EED01726369E13005D1D69 /* dtacTypographyH2BoldTelenorBlue.swift */; };
+		37EED01B26369E46005D1D69 /* dtacTypographyH2TelenorBlue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EED01A26369E46005D1D69 /* dtacTypographyH2TelenorBlue.swift */; };
+		37EED01E26369EC8005D1D69 /* dtacTypographyBoldH3TelenorBlue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EED01D26369EC8005D1D69 /* dtacTypographyBoldH3TelenorBlue.swift */; };
+		37EED02126369F01005D1D69 /* dtacTypographyH3TelenorBlue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EED02026369F01005D1D69 /* dtacTypographyH3TelenorBlue.swift */; };
+		37EED02426369F6F005D1D69 /* dtacTypographyBoldBodyTelenorBlue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EED02326369F6F005D1D69 /* dtacTypographyBoldBodyTelenorBlue.swift */; };
+		37EED0272636A001005D1D69 /* dtacTypographyBodyTelenorBlue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EED0262636A001005D1D69 /* dtacTypographyBodyTelenorBlue.swift */; };
+		37EED02A2636A03D005D1D69 /* dtacTypographyBoldBodySmallTelenorBlue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EED0292636A03D005D1D69 /* dtacTypographyBoldBodySmallTelenorBlue.swift */; };
+		37EED02D2636A06B005D1D69 /* dtacTypographyBodySmallTelenorBlue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EED02C2636A06B005D1D69 /* dtacTypographyBodySmallTelenorBlue.swift */; };
+		37EED0302636A097005D1D69 /* dtacTypographyBoldMicroTelenorBlue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EED02F2636A097005D1D69 /* dtacTypographyBoldMicroTelenorBlue.swift */; };
+		37EED0332636A0C6005D1D69 /* dtacTypographyMicroTelenorBlue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EED0322636A0C6005D1D69 /* dtacTypographyMicroTelenorBlue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,7 +119,73 @@
 		1BC2B71426316FAE0017E2BE /* dtacTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dtacTextField.swift; sourceTree = "<group>"; };
 		1BC2B766263186290017E2BE /* dtacTextField.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = dtacTextField.xib; sourceTree = "<group>"; };
 		37EECF6326327575005D1D69 /* DtacColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DtacColor.swift; path = component/Source/Materials/Colors/DtacColor.swift; sourceTree = SOURCE_ROOT; };
-		37EECF6A263278D9005D1D69 /* DtacTypographyH1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DtacTypographyH1.swift; path = component/Source/Materials/Label/DtacTypographyH1.swift; sourceTree = SOURCE_ROOT; };
+		37EECF6A263278D9005D1D69 /* dtacTypographyH1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = dtacTypographyH1.swift; path = component/source/Materials/Label/H1/dtacTypographyH1.swift; sourceTree = SOURCE_ROOT; };
+		37EECF7026329E02005D1D69 /* dtacTypographyH1Black.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = dtacTypographyH1Black.swift; path = component/Source/Materials/Label/H1/dtacTypographyH1Black.swift; sourceTree = SOURCE_ROOT; };
+		37EECF8F26368782005D1D69 /* dtacTypographyH1TelenorLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = dtacTypographyH1TelenorLink.swift; path = component/Source/Materials/Label/H1/dtacTypographyH1TelenorLink.swift; sourceTree = SOURCE_ROOT; };
+		37EECF922636880F005D1D69 /* dtacTypographyH1Blue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = dtacTypographyH1Blue.swift; path = component/Source/Materials/Label/H1/dtacTypographyH1Blue.swift; sourceTree = SOURCE_ROOT; };
+		37EECF9526368856005D1D69 /* dtacTypographyH1PaleBlue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = dtacTypographyH1PaleBlue.swift; path = component/Source/Materials/Label/H1/dtacTypographyH1PaleBlue.swift; sourceTree = SOURCE_ROOT; };
+		37EECF99263688EA005D1D69 /* dtacTypographyH2Blue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = dtacTypographyH2Blue.swift; path = component/source/Materials/Label/H2/Regular/dtacTypographyH2Blue.swift; sourceTree = SOURCE_ROOT; };
+		37EECF9A263688EA005D1D69 /* dtacTypographyH2PaleBlue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = dtacTypographyH2PaleBlue.swift; path = component/source/Materials/Label/H2/Regular/dtacTypographyH2PaleBlue.swift; sourceTree = SOURCE_ROOT; };
+		37EECF9B263688EA005D1D69 /* dtacTypographyH2TelenorLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = dtacTypographyH2TelenorLink.swift; path = component/source/Materials/Label/H2/Regular/dtacTypographyH2TelenorLink.swift; sourceTree = SOURCE_ROOT; };
+		37EECF9C263688EA005D1D69 /* dtacTypographyH2Black.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = dtacTypographyH2Black.swift; path = component/source/Materials/Label/H2/Regular/dtacTypographyH2Black.swift; sourceTree = SOURCE_ROOT; };
+		37EECF9D263688EA005D1D69 /* dtacTypographyH2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = dtacTypographyH2.swift; path = component/source/Materials/Label/H2/Regular/dtacTypographyH2.swift; sourceTree = SOURCE_ROOT; };
+		37EECFA6263689DC005D1D69 /* dtacTypographyH2BoldTelenorLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = dtacTypographyH2BoldTelenorLink.swift; path = component/Source/Materials/Label/H2/Bold/dtacTypographyH2BoldTelenorLink.swift; sourceTree = SOURCE_ROOT; };
+		37EECFA7263689DC005D1D69 /* dtacTypographyH2BoldBlack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = dtacTypographyH2BoldBlack.swift; path = component/Source/Materials/Label/H2/Bold/dtacTypographyH2BoldBlack.swift; sourceTree = SOURCE_ROOT; };
+		37EECFA8263689DC005D1D69 /* dtacTypographyH2Bold.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = dtacTypographyH2Bold.swift; path = component/Source/Materials/Label/H2/Bold/dtacTypographyH2Bold.swift; sourceTree = SOURCE_ROOT; };
+		37EECFA9263689DC005D1D69 /* dtacTypographyH2BoldPaleBlue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = dtacTypographyH2BoldPaleBlue.swift; path = component/Source/Materials/Label/H2/Bold/dtacTypographyH2BoldPaleBlue.swift; sourceTree = SOURCE_ROOT; };
+		37EECFAA263689DC005D1D69 /* dtacTypographyH2BoldBlue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = dtacTypographyH2BoldBlue.swift; path = component/Source/Materials/Label/H2/Bold/dtacTypographyH2BoldBlue.swift; sourceTree = SOURCE_ROOT; };
+		37EECFB326368AB0005D1D69 /* dtacTypographyH3BoldPaleBlue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dtacTypographyH3BoldPaleBlue.swift; sourceTree = "<group>"; };
+		37EECFB426368AB0005D1D69 /* dtacTypographyH3BoldTelenorLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dtacTypographyH3BoldTelenorLink.swift; sourceTree = "<group>"; };
+		37EECFB526368AB0005D1D69 /* dtacTypographyH3BoldBlue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dtacTypographyH3BoldBlue.swift; sourceTree = "<group>"; };
+		37EECFB626368AB0005D1D69 /* dtacTypographyH3BoldBlack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dtacTypographyH3BoldBlack.swift; sourceTree = "<group>"; };
+		37EECFB726368AB0005D1D69 /* dtacTypographyH3Bold.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dtacTypographyH3Bold.swift; sourceTree = "<group>"; };
+		37EECFB926368AB0005D1D69 /* dtacTypographyH3TelenorLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dtacTypographyH3TelenorLink.swift; sourceTree = "<group>"; };
+		37EECFBA26368AB0005D1D69 /* dtacTypographyH3Black.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dtacTypographyH3Black.swift; sourceTree = "<group>"; };
+		37EECFBB26368AB0005D1D69 /* dtacTypographyH3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dtacTypographyH3.swift; sourceTree = "<group>"; };
+		37EECFBC26368AB0005D1D69 /* dtacTypographyH3Blue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dtacTypographyH3Blue.swift; sourceTree = "<group>"; };
+		37EECFBD26368AB0005D1D69 /* dtacTypographyH3PaleBlue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dtacTypographyH3PaleBlue.swift; sourceTree = "<group>"; };
+		37EECFCB26368C00005D1D69 /* dtacTypographyBodyBlue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dtacTypographyBodyBlue.swift; sourceTree = "<group>"; };
+		37EECFCC26368C00005D1D69 /* dtacTypographyBody.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dtacTypographyBody.swift; sourceTree = "<group>"; };
+		37EECFCD26368C00005D1D69 /* dtacTypographyBodyTelenorLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dtacTypographyBodyTelenorLink.swift; sourceTree = "<group>"; };
+		37EECFCE26368C00005D1D69 /* dtacTypographyBodyBlack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dtacTypographyBodyBlack.swift; sourceTree = "<group>"; };
+		37EECFCF26368C00005D1D69 /* dtacTypographyBodyPaleBlue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dtacTypographyBodyPaleBlue.swift; sourceTree = "<group>"; };
+		37EECFD126368C00005D1D69 /* dtacTypographyBodyBoldBlue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dtacTypographyBodyBoldBlue.swift; sourceTree = "<group>"; };
+		37EECFD226368C00005D1D69 /* dtacTypographyBodyBoldBlack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dtacTypographyBodyBoldBlack.swift; sourceTree = "<group>"; };
+		37EECFD326368C00005D1D69 /* dtacTypographyBodyBoldPaleBlue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dtacTypographyBodyBoldPaleBlue.swift; sourceTree = "<group>"; };
+		37EECFD426368C00005D1D69 /* dtacTypographyBodyBold.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dtacTypographyBodyBold.swift; sourceTree = "<group>"; };
+		37EECFD526368C00005D1D69 /* dtacTypographyBodyBoldTelenorLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dtacTypographyBodyBoldTelenorLink.swift; sourceTree = "<group>"; };
+		37EECFE326368D02005D1D69 /* dtacTypographyBodySmallTelenorLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dtacTypographyBodySmallTelenorLink.swift; sourceTree = "<group>"; };
+		37EECFE426368D02005D1D69 /* dtacTypographyBodySmallBlack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dtacTypographyBodySmallBlack.swift; sourceTree = "<group>"; };
+		37EECFE526368D02005D1D69 /* dtacTypographyBodySmallBlue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dtacTypographyBodySmallBlue.swift; sourceTree = "<group>"; };
+		37EECFE626368D02005D1D69 /* dtacTypographyBodySmall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dtacTypographyBodySmall.swift; sourceTree = "<group>"; };
+		37EECFE726368D02005D1D69 /* dtacTypographyBodySmallPaleBlue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dtacTypographyBodySmallPaleBlue.swift; sourceTree = "<group>"; };
+		37EECFE926368D02005D1D69 /* dtacTypographyBodySmallBoldBlue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dtacTypographyBodySmallBoldBlue.swift; sourceTree = "<group>"; };
+		37EECFEA26368D02005D1D69 /* dtacTypographyBodySmallBold.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dtacTypographyBodySmallBold.swift; sourceTree = "<group>"; };
+		37EECFEB26368D02005D1D69 /* dtacTypographyBodySmallBoldPaleBlue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dtacTypographyBodySmallBoldPaleBlue.swift; sourceTree = "<group>"; };
+		37EECFEC26368D02005D1D69 /* dtacTypographyBodySmallBoldBlack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dtacTypographyBodySmallBoldBlack.swift; sourceTree = "<group>"; };
+		37EECFED26368D02005D1D69 /* dtacTypographyBodySmallBoldTelenorLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dtacTypographyBodySmallBoldTelenorLink.swift; sourceTree = "<group>"; };
+		37EECFFB26368FC8005D1D69 /* dtacTypographyMicroBlack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dtacTypographyMicroBlack.swift; sourceTree = "<group>"; };
+		37EECFFC26368FC8005D1D69 /* dtacTypographyMicro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dtacTypographyMicro.swift; sourceTree = "<group>"; };
+		37EECFFD26368FC8005D1D69 /* dtacTypographyMicroPaleBlue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dtacTypographyMicroPaleBlue.swift; sourceTree = "<group>"; };
+		37EECFFE26368FC8005D1D69 /* dtacTypographyMicroTelenorLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dtacTypographyMicroTelenorLink.swift; sourceTree = "<group>"; };
+		37EECFFF26368FC8005D1D69 /* dtacTypographyMicroBlue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dtacTypographyMicroBlue.swift; sourceTree = "<group>"; };
+		37EED00126368FC8005D1D69 /* dtacTypographyMicroBoldPaleBlue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dtacTypographyMicroBoldPaleBlue.swift; sourceTree = "<group>"; };
+		37EED00226368FC8005D1D69 /* dtacTypographyMicroBoldBlue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dtacTypographyMicroBoldBlue.swift; sourceTree = "<group>"; };
+		37EED00326368FC8005D1D69 /* dtacTypographyMicroBold.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dtacTypographyMicroBold.swift; sourceTree = "<group>"; };
+		37EED00426368FC8005D1D69 /* dtacTypographyMicroBoldBlack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dtacTypographyMicroBoldBlack.swift; sourceTree = "<group>"; };
+		37EED00526368FC8005D1D69 /* dtacTypographyMicroBoldTelenorLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dtacTypographyMicroBoldTelenorLink.swift; sourceTree = "<group>"; };
+		37EED011263692B0005D1D69 /* UIDevice+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIDevice+Extension.swift"; path = "component/Source/Utilities/Extensions/UIDevice+Extension.swift"; sourceTree = SOURCE_ROOT; };
+		37EED01426369D99005D1D69 /* dtacTypographyH1TelenorBlue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = dtacTypographyH1TelenorBlue.swift; path = component/Source/Materials/Label/H1/dtacTypographyH1TelenorBlue.swift; sourceTree = SOURCE_ROOT; };
+		37EED01726369E13005D1D69 /* dtacTypographyH2BoldTelenorBlue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = dtacTypographyH2BoldTelenorBlue.swift; path = component/Source/Materials/Label/H2/Bold/dtacTypographyH2BoldTelenorBlue.swift; sourceTree = SOURCE_ROOT; };
+		37EED01A26369E46005D1D69 /* dtacTypographyH2TelenorBlue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = dtacTypographyH2TelenorBlue.swift; path = component/Source/Materials/Label/H2/Regular/dtacTypographyH2TelenorBlue.swift; sourceTree = SOURCE_ROOT; };
+		37EED01D26369EC8005D1D69 /* dtacTypographyBoldH3TelenorBlue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dtacTypographyBoldH3TelenorBlue.swift; sourceTree = "<group>"; };
+		37EED02026369F01005D1D69 /* dtacTypographyH3TelenorBlue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dtacTypographyH3TelenorBlue.swift; sourceTree = "<group>"; };
+		37EED02326369F6F005D1D69 /* dtacTypographyBoldBodyTelenorBlue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dtacTypographyBoldBodyTelenorBlue.swift; sourceTree = "<group>"; };
+		37EED0262636A001005D1D69 /* dtacTypographyBodyTelenorBlue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dtacTypographyBodyTelenorBlue.swift; sourceTree = "<group>"; };
+		37EED0292636A03D005D1D69 /* dtacTypographyBoldBodySmallTelenorBlue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dtacTypographyBoldBodySmallTelenorBlue.swift; sourceTree = "<group>"; };
+		37EED02C2636A06B005D1D69 /* dtacTypographyBodySmallTelenorBlue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dtacTypographyBodySmallTelenorBlue.swift; sourceTree = "<group>"; };
+		37EED02F2636A097005D1D69 /* dtacTypographyBoldMicroTelenorBlue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dtacTypographyBoldMicroTelenorBlue.swift; sourceTree = "<group>"; };
+		37EED0322636A0C6005D1D69 /* dtacTypographyMicroTelenorBlue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dtacTypographyMicroTelenorBlue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,9 +274,7 @@
 		37EECF5D26327455005D1D69 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				1B16BA7B26314555000CA3C5 /* UIFont+Extension.swift */,
-				1B16BA7C26314555000CA3C5 /* UIColor+Extension.swift */,
-				1BC2B70A26316EB60017E2BE /* UIView+Extension.swift */,
+				37EECF6E26329CD6005D1D69 /* Extensions */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -187,10 +317,222 @@
 		37EECF692632787A005D1D69 /* Label */ = {
 			isa = PBXGroup;
 			children = (
-				37EECF6A263278D9005D1D69 /* DtacTypographyH1.swift */,
+				37EECF6F26329D85005D1D69 /* H1 */,
+				37EECF982636888B005D1D69 /* H2 */,
+				37EECFB126368A2B005D1D69 /* H3 */,
+				37EECFC926368B8D005D1D69 /* Body */,
+				37EECFE126368C8A005D1D69 /* Body Small */,
+				37EECFF926368F0B005D1D69 /* Micro */,
 			);
 			path = Label;
 			sourceTree = "<group>";
+		};
+		37EECF6E26329CD6005D1D69 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1B16BA7B26314555000CA3C5 /* UIFont+Extension.swift */,
+				1B16BA7C26314555000CA3C5 /* UIColor+Extension.swift */,
+				1BC2B70A26316EB60017E2BE /* UIView+Extension.swift */,
+				37EED011263692B0005D1D69 /* UIDevice+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		37EECF6F26329D85005D1D69 /* H1 */ = {
+			isa = PBXGroup;
+			children = (
+				37EECF6A263278D9005D1D69 /* dtacTypographyH1.swift */,
+				37EED01426369D99005D1D69 /* dtacTypographyH1TelenorBlue.swift */,
+				37EECF8F26368782005D1D69 /* dtacTypographyH1TelenorLink.swift */,
+				37EECF7026329E02005D1D69 /* dtacTypographyH1Black.swift */,
+				37EECF922636880F005D1D69 /* dtacTypographyH1Blue.swift */,
+				37EECF9526368856005D1D69 /* dtacTypographyH1PaleBlue.swift */,
+			);
+			path = H1;
+			sourceTree = "<group>";
+		};
+		37EECF982636888B005D1D69 /* H2 */ = {
+			isa = PBXGroup;
+			children = (
+				37EECFA52636898B005D1D69 /* Bold */,
+				37EECFA42636897E005D1D69 /* Regular */,
+			);
+			path = H2;
+			sourceTree = "<group>";
+		};
+		37EECFA42636897E005D1D69 /* Regular */ = {
+			isa = PBXGroup;
+			children = (
+				37EECF9D263688EA005D1D69 /* dtacTypographyH2.swift */,
+				37EED01A26369E46005D1D69 /* dtacTypographyH2TelenorBlue.swift */,
+				37EECF9C263688EA005D1D69 /* dtacTypographyH2Black.swift */,
+				37EECF99263688EA005D1D69 /* dtacTypographyH2Blue.swift */,
+				37EECF9A263688EA005D1D69 /* dtacTypographyH2PaleBlue.swift */,
+				37EECF9B263688EA005D1D69 /* dtacTypographyH2TelenorLink.swift */,
+			);
+			path = Regular;
+			sourceTree = "<group>";
+		};
+		37EECFA52636898B005D1D69 /* Bold */ = {
+			isa = PBXGroup;
+			children = (
+				37EECFA8263689DC005D1D69 /* dtacTypographyH2Bold.swift */,
+				37EED01726369E13005D1D69 /* dtacTypographyH2BoldTelenorBlue.swift */,
+				37EECFA7263689DC005D1D69 /* dtacTypographyH2BoldBlack.swift */,
+				37EECFAA263689DC005D1D69 /* dtacTypographyH2BoldBlue.swift */,
+				37EECFA9263689DC005D1D69 /* dtacTypographyH2BoldPaleBlue.swift */,
+				37EECFA6263689DC005D1D69 /* dtacTypographyH2BoldTelenorLink.swift */,
+			);
+			path = Bold;
+			sourceTree = "<group>";
+		};
+		37EECFB126368A2B005D1D69 /* H3 */ = {
+			isa = PBXGroup;
+			children = (
+				37EECFB226368AB0005D1D69 /* Bold */,
+				37EECFB826368AB0005D1D69 /* Regular */,
+			);
+			path = H3;
+			sourceTree = "<group>";
+		};
+		37EECFB226368AB0005D1D69 /* Bold */ = {
+			isa = PBXGroup;
+			children = (
+				37EECFB326368AB0005D1D69 /* dtacTypographyH3BoldPaleBlue.swift */,
+				37EECFB426368AB0005D1D69 /* dtacTypographyH3BoldTelenorLink.swift */,
+				37EECFB526368AB0005D1D69 /* dtacTypographyH3BoldBlue.swift */,
+				37EECFB626368AB0005D1D69 /* dtacTypographyH3BoldBlack.swift */,
+				37EECFB726368AB0005D1D69 /* dtacTypographyH3Bold.swift */,
+				37EED01D26369EC8005D1D69 /* dtacTypographyBoldH3TelenorBlue.swift */,
+			);
+			name = Bold;
+			path = component/Source/Materials/Label/H3/Bold;
+			sourceTree = SOURCE_ROOT;
+		};
+		37EECFB826368AB0005D1D69 /* Regular */ = {
+			isa = PBXGroup;
+			children = (
+				37EECFB926368AB0005D1D69 /* dtacTypographyH3TelenorLink.swift */,
+				37EECFBA26368AB0005D1D69 /* dtacTypographyH3Black.swift */,
+				37EECFBB26368AB0005D1D69 /* dtacTypographyH3.swift */,
+				37EED02026369F01005D1D69 /* dtacTypographyH3TelenorBlue.swift */,
+				37EECFBC26368AB0005D1D69 /* dtacTypographyH3Blue.swift */,
+				37EECFBD26368AB0005D1D69 /* dtacTypographyH3PaleBlue.swift */,
+			);
+			name = Regular;
+			path = component/Source/Materials/Label/H3/Regular;
+			sourceTree = SOURCE_ROOT;
+		};
+		37EECFC926368B8D005D1D69 /* Body */ = {
+			isa = PBXGroup;
+			children = (
+				37EECFD026368C00005D1D69 /* Bold */,
+				37EECFCA26368C00005D1D69 /* Regular */,
+			);
+			path = Body;
+			sourceTree = "<group>";
+		};
+		37EECFCA26368C00005D1D69 /* Regular */ = {
+			isa = PBXGroup;
+			children = (
+				37EECFCB26368C00005D1D69 /* dtacTypographyBodyBlue.swift */,
+				37EECFCC26368C00005D1D69 /* dtacTypographyBody.swift */,
+				37EED0262636A001005D1D69 /* dtacTypographyBodyTelenorBlue.swift */,
+				37EECFCD26368C00005D1D69 /* dtacTypographyBodyTelenorLink.swift */,
+				37EECFCE26368C00005D1D69 /* dtacTypographyBodyBlack.swift */,
+				37EECFCF26368C00005D1D69 /* dtacTypographyBodyPaleBlue.swift */,
+			);
+			name = Regular;
+			path = component/Source/Materials/Label/Body/Regular;
+			sourceTree = SOURCE_ROOT;
+		};
+		37EECFD026368C00005D1D69 /* Bold */ = {
+			isa = PBXGroup;
+			children = (
+				37EECFD126368C00005D1D69 /* dtacTypographyBodyBoldBlue.swift */,
+				37EECFD226368C00005D1D69 /* dtacTypographyBodyBoldBlack.swift */,
+				37EECFD326368C00005D1D69 /* dtacTypographyBodyBoldPaleBlue.swift */,
+				37EECFD426368C00005D1D69 /* dtacTypographyBodyBold.swift */,
+				37EECFD526368C00005D1D69 /* dtacTypographyBodyBoldTelenorLink.swift */,
+				37EED02326369F6F005D1D69 /* dtacTypographyBoldBodyTelenorBlue.swift */,
+			);
+			name = Bold;
+			path = component/Source/Materials/Label/Body/Bold;
+			sourceTree = SOURCE_ROOT;
+		};
+		37EECFE126368C8A005D1D69 /* Body Small */ = {
+			isa = PBXGroup;
+			children = (
+				37EECFE826368D02005D1D69 /* Bold */,
+				37EECFE226368D02005D1D69 /* Regular */,
+			);
+			path = "Body Small";
+			sourceTree = "<group>";
+		};
+		37EECFE226368D02005D1D69 /* Regular */ = {
+			isa = PBXGroup;
+			children = (
+				37EECFE326368D02005D1D69 /* dtacTypographyBodySmallTelenorLink.swift */,
+				37EECFE426368D02005D1D69 /* dtacTypographyBodySmallBlack.swift */,
+				37EECFE526368D02005D1D69 /* dtacTypographyBodySmallBlue.swift */,
+				37EECFE626368D02005D1D69 /* dtacTypographyBodySmall.swift */,
+				37EED02C2636A06B005D1D69 /* dtacTypographyBodySmallTelenorBlue.swift */,
+				37EECFE726368D02005D1D69 /* dtacTypographyBodySmallPaleBlue.swift */,
+			);
+			name = Regular;
+			path = "component/Source/Materials/Label/Body Small/Regular";
+			sourceTree = SOURCE_ROOT;
+		};
+		37EECFE826368D02005D1D69 /* Bold */ = {
+			isa = PBXGroup;
+			children = (
+				37EECFE926368D02005D1D69 /* dtacTypographyBodySmallBoldBlue.swift */,
+				37EECFEA26368D02005D1D69 /* dtacTypographyBodySmallBold.swift */,
+				37EED0292636A03D005D1D69 /* dtacTypographyBoldBodySmallTelenorBlue.swift */,
+				37EECFEB26368D02005D1D69 /* dtacTypographyBodySmallBoldPaleBlue.swift */,
+				37EECFEC26368D02005D1D69 /* dtacTypographyBodySmallBoldBlack.swift */,
+				37EECFED26368D02005D1D69 /* dtacTypographyBodySmallBoldTelenorLink.swift */,
+			);
+			name = Bold;
+			path = "component/Source/Materials/Label/Body Small/Bold";
+			sourceTree = SOURCE_ROOT;
+		};
+		37EECFF926368F0B005D1D69 /* Micro */ = {
+			isa = PBXGroup;
+			children = (
+				37EED00026368FC8005D1D69 /* Bold */,
+				37EECFFA26368FC8005D1D69 /* Regular */,
+			);
+			path = Micro;
+			sourceTree = "<group>";
+		};
+		37EECFFA26368FC8005D1D69 /* Regular */ = {
+			isa = PBXGroup;
+			children = (
+				37EECFFB26368FC8005D1D69 /* dtacTypographyMicroBlack.swift */,
+				37EECFFC26368FC8005D1D69 /* dtacTypographyMicro.swift */,
+				37EECFFD26368FC8005D1D69 /* dtacTypographyMicroPaleBlue.swift */,
+				37EED0322636A0C6005D1D69 /* dtacTypographyMicroTelenorBlue.swift */,
+				37EECFFE26368FC8005D1D69 /* dtacTypographyMicroTelenorLink.swift */,
+				37EECFFF26368FC8005D1D69 /* dtacTypographyMicroBlue.swift */,
+			);
+			name = Regular;
+			path = component/Source/Materials/Label/Micro/Regular;
+			sourceTree = SOURCE_ROOT;
+		};
+		37EED00026368FC8005D1D69 /* Bold */ = {
+			isa = PBXGroup;
+			children = (
+				37EED00126368FC8005D1D69 /* dtacTypographyMicroBoldPaleBlue.swift */,
+				37EED00226368FC8005D1D69 /* dtacTypographyMicroBoldBlue.swift */,
+				37EED00326368FC8005D1D69 /* dtacTypographyMicroBold.swift */,
+				37EED02F2636A097005D1D69 /* dtacTypographyBoldMicroTelenorBlue.swift */,
+				37EED00426368FC8005D1D69 /* dtacTypographyMicroBoldBlack.swift */,
+				37EED00526368FC8005D1D69 /* dtacTypographyMicroBoldTelenorLink.swift */,
+			);
+			name = Bold;
+			path = component/Source/Materials/Label/Micro/Bold;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -269,17 +611,83 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37EECF6B263278D9005D1D69 /* DtacTypographyH1.swift in Sources */,
+				37EECFBE26368AB0005D1D69 /* dtacTypographyH3BoldPaleBlue.swift in Sources */,
+				37EECFC426368AB0005D1D69 /* dtacTypographyH3Black.swift in Sources */,
+				37EECFC526368AB0005D1D69 /* dtacTypographyH3.swift in Sources */,
+				37EECFDF26368C00005D1D69 /* dtacTypographyBodyBoldTelenorLink.swift in Sources */,
+				37EECFF326368D02005D1D69 /* dtacTypographyBodySmallBoldBlue.swift in Sources */,
+				37EECFA0263688EA005D1D69 /* dtacTypographyH2TelenorLink.swift in Sources */,
+				37EECFAE263689DC005D1D69 /* dtacTypographyH2BoldPaleBlue.swift in Sources */,
+				37EECFF226368D02005D1D69 /* dtacTypographyBodySmallPaleBlue.swift in Sources */,
+				37EED00E26368FC8005D1D69 /* dtacTypographyMicroBoldBlack.swift in Sources */,
+				37EED00B26368FC8005D1D69 /* dtacTypographyMicroBoldPaleBlue.swift in Sources */,
+				37EECFEE26368D02005D1D69 /* dtacTypographyBodySmallTelenorLink.swift in Sources */,
+				37EECFA1263688EA005D1D69 /* dtacTypographyH2Black.swift in Sources */,
+				37EECFC026368AB0005D1D69 /* dtacTypographyH3BoldBlue.swift in Sources */,
+				37EED00626368FC8005D1D69 /* dtacTypographyMicroBlack.swift in Sources */,
+				37EECF6B263278D9005D1D69 /* dtacTypographyH1.swift in Sources */,
+				37EED00726368FC8005D1D69 /* dtacTypographyMicro.swift in Sources */,
+				37EECFD626368C00005D1D69 /* dtacTypographyBodyBlue.swift in Sources */,
 				1BC2B70226316D710017E2BE /* ViewController.swift in Sources */,
+				37EECFC626368AB0005D1D69 /* dtacTypographyH3Blue.swift in Sources */,
+				37EECFC326368AB0005D1D69 /* dtacTypographyH3TelenorLink.swift in Sources */,
+				37EED00D26368FC8005D1D69 /* dtacTypographyMicroBold.swift in Sources */,
+				37EECF9F263688EA005D1D69 /* dtacTypographyH2PaleBlue.swift in Sources */,
 				1B16BA8B26314555000CA3C5 /* DtacStyleButton.swift in Sources */,
 				1BC2B70C26316EB60017E2BE /* UIView+Extension.swift in Sources */,
 				1BC2B71526316FAE0017E2BE /* dtacTextField.swift in Sources */,
+				37EED012263692B0005D1D69 /* UIDevice+Extension.swift in Sources */,
+				37EECFC726368AB0005D1D69 /* dtacTypographyH3PaleBlue.swift in Sources */,
+				37EED00826368FC8005D1D69 /* dtacTypographyMicroPaleBlue.swift in Sources */,
+				37EECFF426368D02005D1D69 /* dtacTypographyBodySmallBold.swift in Sources */,
+				37EED00C26368FC8005D1D69 /* dtacTypographyMicroBoldBlue.swift in Sources */,
+				37EED01E26369EC8005D1D69 /* dtacTypographyBoldH3TelenorBlue.swift in Sources */,
+				37EECFC126368AB0005D1D69 /* dtacTypographyH3BoldBlack.swift in Sources */,
 				1B1AED4B263145120004ACD5 /* AppDelegate.swift in Sources */,
 				1B16BA8726314555000CA3C5 /* UIFont+Extension.swift in Sources */,
+				37EECFDA26368C00005D1D69 /* dtacTypographyBodyPaleBlue.swift in Sources */,
+				37EED02D2636A06B005D1D69 /* dtacTypographyBodySmallTelenorBlue.swift in Sources */,
+				37EED01526369D99005D1D69 /* dtacTypographyH1TelenorBlue.swift in Sources */,
+				37EECFDC26368C00005D1D69 /* dtacTypographyBodyBoldBlack.swift in Sources */,
+				37EED02426369F6F005D1D69 /* dtacTypographyBoldBodyTelenorBlue.swift in Sources */,
+				37EECFA2263688EA005D1D69 /* dtacTypographyH2.swift in Sources */,
+				37EECF7126329E02005D1D69 /* dtacTypographyH1Black.swift in Sources */,
+				37EED0332636A0C6005D1D69 /* dtacTypographyMicroTelenorBlue.swift in Sources */,
+				37EED00926368FC8005D1D69 /* dtacTypographyMicroTelenorLink.swift in Sources */,
+				37EECFC226368AB0005D1D69 /* dtacTypographyH3Bold.swift in Sources */,
+				37EECFAF263689DC005D1D69 /* dtacTypographyH2BoldBlue.swift in Sources */,
+				37EECFD726368C00005D1D69 /* dtacTypographyBody.swift in Sources */,
+				37EECFAB263689DC005D1D69 /* dtacTypographyH2BoldTelenorLink.swift in Sources */,
+				37EED01826369E14005D1D69 /* dtacTypographyH2BoldTelenorBlue.swift in Sources */,
+				37EECFD826368C00005D1D69 /* dtacTypographyBodyTelenorLink.swift in Sources */,
+				37EECFDB26368C00005D1D69 /* dtacTypographyBodyBoldBlue.swift in Sources */,
 				1B16BA9F26314740000CA3C5 /* DtacTextFieldShowCaseViewController.swift in Sources */,
+				37EECF9026368782005D1D69 /* dtacTypographyH1TelenorLink.swift in Sources */,
+				37EECFD926368C00005D1D69 /* dtacTypographyBodyBlack.swift in Sources */,
+				37EED00F26368FC8005D1D69 /* dtacTypographyMicroBoldTelenorLink.swift in Sources */,
+				37EECFDE26368C00005D1D69 /* dtacTypographyBodyBold.swift in Sources */,
+				37EECFF526368D02005D1D69 /* dtacTypographyBodySmallBoldPaleBlue.swift in Sources */,
+				37EECF9E263688EA005D1D69 /* dtacTypographyH2Blue.swift in Sources */,
+				37EED02A2636A03D005D1D69 /* dtacTypographyBoldBodySmallTelenorBlue.swift in Sources */,
+				37EED00A26368FC8005D1D69 /* dtacTypographyMicroBlue.swift in Sources */,
+				37EECF9626368856005D1D69 /* dtacTypographyH1PaleBlue.swift in Sources */,
+				37EECFF126368D02005D1D69 /* dtacTypographyBodySmall.swift in Sources */,
+				37EECFBF26368AB0005D1D69 /* dtacTypographyH3BoldTelenorLink.swift in Sources */,
+				37EECFDD26368C00005D1D69 /* dtacTypographyBodyBoldPaleBlue.swift in Sources */,
+				37EECFEF26368D02005D1D69 /* dtacTypographyBodySmallBlack.swift in Sources */,
+				37EECFAC263689DC005D1D69 /* dtacTypographyH2BoldBlack.swift in Sources */,
+				37EECFF726368D02005D1D69 /* dtacTypographyBodySmallBoldTelenorLink.swift in Sources */,
+				37EECFF026368D02005D1D69 /* dtacTypographyBodySmallBlue.swift in Sources */,
 				37EECF6426327575005D1D69 /* DtacColor.swift in Sources */,
+				37EECF932636880F005D1D69 /* dtacTypographyH1Blue.swift in Sources */,
+				37EECFAD263689DC005D1D69 /* dtacTypographyH2Bold.swift in Sources */,
+				37EED0272636A001005D1D69 /* dtacTypographyBodyTelenorBlue.swift in Sources */,
 				1B1AED4D263145120004ACD5 /* SceneDelegate.swift in Sources */,
 				1B16BA8826314555000CA3C5 /* UIColor+Extension.swift in Sources */,
+				37EECFF626368D02005D1D69 /* dtacTypographyBodySmallBoldBlack.swift in Sources */,
+				37EED01B26369E46005D1D69 /* dtacTypographyH2TelenorBlue.swift in Sources */,
+				37EED0302636A097005D1D69 /* dtacTypographyBoldMicroTelenorBlue.swift in Sources */,
+				37EED02126369F01005D1D69 /* dtacTypographyH3TelenorBlue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

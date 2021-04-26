@@ -7,7 +7,7 @@
 
 import UIKit
 
-public class DtacTypographyH1: UILabel {
+public class dtacTypographyBoldMicro: UILabel {
     
     required init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)!
@@ -20,11 +20,12 @@ public class DtacTypographyH1: UILabel {
     }
     
     func commonInit(){
-        self.textColor = UIColor.red
         self.backgroundColor = UIColor.clear
         self.textAlignment = .left
         self.numberOfLines = 1
-        self.font = UIFont.dtacRegular.h1
-       
+        self.font = UIFont.microBold
+        
+        //difference
+        self.textColor = DtacColor.primaryTelenorBlack
     }
 }

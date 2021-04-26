@@ -67,12 +67,12 @@ import UIKit
         contentView.autoresizingMask = [.flexibleWidth , .flexibleHeight]
         
     
-        self.textField.layer.borderColor = UIColor.shadow.cgColor
+//        self.textField.layer.borderColor = UIColor.shadow.cgColor
         self.textField.layer.borderWidth = 1
         self.textField.layer.cornerRadius = 3
         self.textField.clipsToBounds = true
         self.textField.placeholder = "hint"
-        self.textField.font = UIFont.dtacRegular.body
+        self.textField.font = UIFont.body
         
         self.titleLabel.isHidden = true
         self.descritionLabel.isHidden = true
@@ -94,17 +94,17 @@ import UIKit
     
 
     func positive() {
-        self.textField.layer.borderColor = UIColor.success.cgColor
-        self.descritionLabel.textColor = UIColor.success
+//        self.textField.layer.borderColor = UIColor.success.cgColor
+//        self.descritionLabel.textColor = UIColor.success
     }
 
     func negative() {
-        self.textField.layer.borderColor = UIColor.nagative.cgColor
-        self.descritionLabel.textColor = UIColor.nagative
+//        self.textField.layer.borderColor = UIColor.nagative.cgColor
+//        self.descritionLabel.textColor = UIColor.nagative
     }
 
     func waring() {
-        self.textField.layer.borderColor = UIColor.waring.cgColor
+//        self.textField.layer.borderColor = UIColor.waring.cgColor
     }
     
 }

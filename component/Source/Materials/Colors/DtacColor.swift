@@ -9,148 +9,225 @@ import UIKit
 
 public class DtacColor {
     
-    public class var azure: UIColor {
-      return UIColor(red: 25.0 / 255.0, green: 170.0 / 255.0, blue: 248.0 / 255.0, alpha: 1.0)
+    // MARK: - Primary
+    public class var primaryTelenorBlue: UIColor {
+        return UIColor(red: 0.10, green: 0.67, blue: 0.97, alpha: 1.00)
     }
     
-    public class var rosePink: UIColor {
-      return UIColor(red: 243.0 / 255.0, green: 133.0 / 255.0, blue: 155.0 / 255.0, alpha: 1.0)
-    }
-
-    public class var bg: UIColor {
-      return UIColor(white: 228.0 / 255.0, alpha: 1.0)
+    public class var primaryTelenorLink: UIColor {
+        return UIColor(red: 0.00, green: 0.48, blue: 0.82, alpha: 1.00)
     }
     
-    public class var brownishGrey: UIColor {
-      return UIColor(white: 118.0 / 255.0, alpha: 1.0)
-    }
-
-    public class var tabbarItem: UIColor {
-        return UIColor(white: 118.0 / 255.0, alpha: 1.0)
-    }
-
-    public class var darkWhite: UIColor {
-        return UIColor(white: 248.0 / 255.0, alpha: 1.0)
-    }
-
-    public class var divider: UIColor {
-      return UIColor(white: 214.0 / 255.0, alpha: 1.0)
-    }
-
-    public class var alertCardBg: UIColor {
-      return UIColor(red: 1.0, green: 214.0 / 255.0, blue: 214.0 / 255.0, alpha: 1.0)
-    }
-
-    public class var alertCardBorder: UIColor {
-      return UIColor(red: 1.0, green: 216.0 / 255.0, blue: 216.0 / 255.0, alpha: 1.0)
-    }
-
-    public class var telenorlink: UIColor {
-      return UIColor(red: 0.0, green: 122.0 / 255.0, blue: 208.0 / 255.0, alpha: 1.0)
+    public class var primaryTelenorBlack: UIColor {
+        return UIColor(red: 0.05, green: 0.06, blue: 0.15, alpha: 1.00)
     }
     
-    public class var textblack: UIColor {
-      return UIColor(white: 26.0 / 255.0, alpha: 1.0)
-    }
-
-    public class var shadow: UIColor {
-      return UIColor(white: 34.0 / 255.0, alpha: 0.29)
-    }
-
-    public class var cardBgBlue: UIColor {
-      return UIColor(red: 237.0 / 255.0, green: 249.0 / 255.0, blue: 1.0, alpha: 1.0)
+    public class var primaryBlue: UIColor {
+        return UIColor(red: 0.64, green: 0.87, blue: 1.00, alpha: 1.00)
     }
     
-    public class var chartBg: UIColor {
-      return UIColor(white: 214.0 / 255.0, alpha: 1.0)
-    }
-
-    public class var chartScale: UIColor {
-      return UIColor(red: 141.0 / 255.0, green: 243.0 / 255.0, blue: 133.0 / 255.0, alpha: 1.0)
-    }
-
-    public class var redNofication: UIColor {
-      return UIColor(red: 250.0 / 255.0, green: 62.0 / 255.0, blue: 62.0 / 255.0, alpha: 1.0)
-    }
-
-    public class var alert: UIColor {
-      return UIColor(red: 229.0 / 255.0, green: 57.0 / 255.0, blue: 90.0 / 255.0, alpha: 1.0)
+    public class var primaryPaleBlue: UIColor {
+        return UIColor(red: 0.90, green: 0.93, blue: 0.96, alpha: 1.00)
     }
     
-    public class var telenortext: UIColor {
-      return UIColor(white: 26.0 / 255.0, alpha: 1.0)
-    }
-
-    public class var telenorblue: UIColor {
-      return UIColor(red: 0.0, green: 173.0 / 255.0, blue: 238.0 / 255.0, alpha: 1.0)
-    }
-
-    public class var buttonActive: UIColor {
-      return UIColor(red: 6.0 / 255.0, green: 98.0 / 255.0, blue: 163.0 / 255.0, alpha: 1.0)
-    }
-
-    public class var lightBlue17: UIColor {
-      return UIColor(red: 142.0 / 255.0, green: 216.0 / 255.0, blue: 1.0, alpha: 0.17)
-    }
-
-    public class var black6: UIColor {
-      return UIColor(white: 0.0, alpha: 0.06)
-    }
-
-    public class var barDefault: UIColor {
-      return UIColor(red: 232.0 / 255.0, green: 236.0 / 255.0, blue: 241.0 / 255.0, alpha: 1.0)
+    // MARK: - Grays
+    public class var graysWhite: UIColor {
+        return UIColor(red: 1.00, green: 1.00, blue: 1.00, alpha: 1.00)
     }
     
-    public class var barChartGrid: UIColor {
-      return UIColor(red: 0.89, green: 0.89, blue: 0.89, alpha: 1.00)
-    }
-
-    public class var chartEmpty: UIColor {
-      return UIColor(white: 234.0 / 255.0, alpha: 1.0)
-    }
-
-    public class var dropShadowRefill: UIColor {
-      return UIColor(red: 1.0, green: 92.0 / 255.0, blue: 92.0 / 255.0, alpha: 0.2)
-    }
-
-    public class var barCurrent: UIColor {
-      return UIColor(red: 96.0 / 255.0, green: 104.0 / 255.0, blue: 117.0 / 255.0, alpha: 1.0)
-    }
-
-    public class var chartScale2: UIColor {
-      return UIColor(red: 114.0 / 255.0, green: 222.0 / 255.0, blue: 105.0 / 255.0, alpha: 1.0)
+    public class var graysLightGray1: UIColor {
+        return UIColor(red: 0.96, green: 0.96, blue: 0.96, alpha: 1.00)
     }
     
-    public class var infoBoxBg: UIColor {
-      return UIColor(red: 229.0 / 255.0, green: 246.0 / 255.0, blue: 1.0, alpha: 1.0)
+    public class var graysLightGray2: UIColor {
+        return UIColor(red: 0.84, green: 0.84, blue: 0.84, alpha: 1.00)
     }
     
-    public class var infoBoxBorder: UIColor {
-      return UIColor(red: 163.0 / 255.0, green: 222.0 / 255.0, blue: 1.0, alpha: 1.0)
+    public class var graysDarkGray: UIColor {
+        return UIColor(red: 0.46, green: 0.46, blue: 0.46, alpha: 1.00)
     }
     
-    public class var coral: UIColor {
-      return UIColor(red: 1.0, green: 75.0 / 255.0, blue: 75.0 / 255.0, alpha: 1.0)
-    }
-
-    public class var iceBlue: UIColor {
-      return UIColor(red: 230.0 / 255.0, green: 251.0 / 255.0, blue: 1.0, alpha: 1.0)
-    }
-
-    public class var lemon: UIColor {
-      return UIColor(red: 1.0, green: 1.0, blue: 85.0 / 255.0, alpha: 1.0)
+    public class var graysSuggested: UIColor {
+        return UIColor(red: 0.05, green: 0.06, blue: 0.15, alpha: 1.00)
     }
     
-    public class var success: UIColor {
+    public class var graysTextBlack: UIColor {
+        return UIColor(red: 0.10, green: 0.10, blue: 0.10, alpha: 1.00)
+    }
+    
+    // MARK: - Accent / information colours
+    public class var accentRed: UIColor {
+        return UIColor(red: 0.90, green: 0.62, blue: 0.61, alpha: 1.00)
+    }
+    
+    public class var informationRed: UIColor {
+        return UIColor(red: 1.00, green: 0.71, blue: 0.71, alpha: 1.00)
+    }
+    
+    public class var accentHotPink: UIColor {
+        return UIColor(red: 1.00, green: 0.39, blue: 0.55, alpha: 1.00)
+    }
+    
+    public class var accentPink: UIColor {
+        return UIColor(red: 0.89, green: 0.60, blue: 0.76, alpha: 1.00)
+    }
+    
+    public class var informationPink: UIColor {
+        return UIColor(red: 0.96, green: 0.75, blue: 0.87, alpha: 1.00)
+    }
+    
+    public class var accentStone: UIColor {
+        return UIColor(red: 0.91, green: 0.87, blue: 0.83, alpha: 1.00)
+    }
+    
+    public class var informationOrange: UIColor {
+        return UIColor(red: 1.00, green: 0.80, blue: 0.59, alpha: 1.00)
+    }
+    
+    public class var accentOrange: UIColor {
+        return UIColor(red: 0.93, green: 0.74, blue: 0.53, alpha: 1.00)
+    }
+    
+    public class var accentSunFlower: UIColor {
+        return UIColor(red: 0.99, green: 0.73, blue: 0.36, alpha: 1.00)
+    }
+    
+    public class var informationYellow: UIColor {
+        return UIColor(red: 0.99, green: 0.95, blue: 0.57, alpha: 1.00)
+    }
+    
+    public class var accentYellow: UIColor {
+        return UIColor(red: 1.00, green: 0.99, blue: 0.53, alpha: 1.00)
+    }
+    
+    public class var accentLemon: UIColor {
+        return UIColor(red: 1.00, green: 0.99, blue: 0.16, alpha: 1.00)
+    }
+    
+    public class var accentGreen: UIColor {
+        return UIColor(red: 0.55, green: 0.74, blue: 0.58, alpha: 1.00)
+    }
+    
+    public class var informationGreen: UIColor {
+        return UIColor(red: 0.69, green: 0.94, blue: 0.70, alpha: 1.00)
+    }
+    
+    public class var accentMutedGreen: UIColor {
+        return UIColor(red: 0.80, green: 0.90, blue: 0.86, alpha: 1.00)
+    }
+    
+    public class var accentLightBlue: UIColor {
+        return UIColor(red: 0.68, green: 0.87, blue: 0.99, alpha: 1.00)
+    }
+    
+    public class var accentTurquoise: UIColor {
+        return UIColor(red: 0.55, green: 0.84, blue: 0.96, alpha: 1.00)
+    }
+    
+    public class var informationTurquoise: UIColor {
+        return UIColor(red: 0.61, green: 0.91, blue: 0.96, alpha: 1.00)
+    }
+    
+    public class var accentPurple: UIColor {
+        return UIColor(red: 0.57, green: 0.49, blue: 0.80, alpha: 1.00)
+    }
+    
+    public class var informationPurple: UIColor {
+        return UIColor(red: 0.70, green: 0.76, blue: 1.00, alpha: 1.00)
+    }
+    
+    // MARK: - Background colours
+    public class var backgroundLightRed: UIColor {
+        return UIColor(red: 0.97, green: 0.93, blue: 0.93, alpha: 1.00)
+    }
+    
+    public class var backgroundLightPink: UIColor {
+        return UIColor(red: 0.97, green: 0.94, blue: 0.96, alpha: 1.00)
+    }
+    
+    public class var backgroundPalePink: UIColor {
+        return UIColor(red: 1.00, green: 0.94, blue: 0.96, alpha: 1.00)
+    }
+    
+    public class var backgroundLightYellow: UIColor {
+        return UIColor(red: 0.97, green: 0.96, blue: 0.93, alpha: 1.00)
+    }
+    
+    public class var backgroundPaleLemon: UIColor {
+        return UIColor(red: 0.99, green: 0.99, blue: 0.79, alpha: 1.00)
+    }
+    
+    public class var backgroundLightOrange: UIColor {
+        return UIColor(red: 0.97, green: 0.95, blue: 0.93, alpha: 1.00)
+    }
+    
+    public class var backgroundPaleSunFlower: UIColor {
+        return UIColor(red: 1.00, green: 0.95, blue: 0.91, alpha: 1.00)
+    }
+    
+    public class var backgroundPaleStone: UIColor {
+        return UIColor(red: 0.96, green: 0.96, blue: 0.93, alpha: 1.00)
+    }
+    
+    public class var backgroundPaleMutedGreen: UIColor {
+        return UIColor(red: 0.93, green: 0.96, blue: 0.95, alpha: 1.00)
+    }
+    
+    public class var backgroundLightGreen: UIColor {
+        return UIColor(red: 0.93, green: 0.96, blue: 0.94, alpha: 1.00)
+    }
+    
+    public class var backgroundLightBlue2: UIColor {
+        return UIColor(red: 0.91, green: 0.93, blue: 0.96, alpha: 1.00)
+    }
+    
+    public class var backgroundLightTurquoise: UIColor {
+        return UIColor(red: 0.92, green: 0.95, blue: 0.96, alpha: 1.00)
+    }
+    
+    public class var backgroundLightPurple: UIColor {
+        return UIColor(red: 0.90, green: 0.91, blue: 0.96, alpha: 1.00)
+    }
+    
+    // MARK: - Status
+    public class var statusSuccess: UIColor {
         return UIColor(red: 0.10, green: 0.51, blue: 0.22, alpha: 1.00)
     }
     
-    public class var nagative: UIColor {
+    public class var statusSuccessGreenLight: UIColor {
+        return UIColor(red: 0.20, green: 0.63, blue: 0.34, alpha: 1.00)
+    }
+    
+    public class var statusWarningOrange: UIColor {
+        return UIColor(red: 1.00, green: 0.60, blue: 0.12, alpha: 1.00)
+    }
+    
+    public class var statusErrorRed: UIColor {
         return UIColor(red: 0.85, green: 0.15, blue: 0.19, alpha: 1.00)
     }
     
-    public class var waring: UIColor {
-        UIColor(red: 1.00, green: 0.60, blue: 0.12, alpha: 1.00)
+    public class var statusErrorRedLight: UIColor {
+        return UIColor(red: 0.94, green: 0.24, blue: 0.27, alpha: 1.00)
     }
-        
+    
+    // MARK: - Reward Tiers
+    public class var tierWelcomeMember: UIColor {
+        return UIColor(red: 0.00, green: 0.68, blue: 0.94, alpha: 1.00)
+    }
+    
+    public class var tierSilverMember: UIColor {
+        return UIColor(red: 0.58, green: 0.58, blue: 0.60, alpha: 1.00)
+    }
+    
+    public class var tierGoldMember: UIColor {
+        return UIColor(red: 0.86, green: 0.65, blue: 0.32, alpha: 1.00)
+    }
+    
+    public class var tierPlatinumBlue: UIColor {
+        return UIColor(red: 0.08, green: 0.25, blue: 0.42, alpha: 1.00)
+    }
+    
+    
+    // MARK: - Gradients
+    
 }

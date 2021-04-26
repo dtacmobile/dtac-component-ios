@@ -18,7 +18,6 @@ class DtacTextFieldShowCaseViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         textFieldWithTitle.titleText = "หัวข้อ"
-        
     }
 
     override func viewWillAppear(_ animated: Bool) {
