@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'dtac-component-ios'
-  s.version          = '0.8.0'
+  s.version          = '0.9.0'
   s.summary          = 'this is a pod component for use development iOS'
 
 # This description is used to generate tags and improve search results.
