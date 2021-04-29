@@ -20,6 +20,7 @@ public class dtacTypographyH3TelenorLink: dtacTypographyH3 {
     }
     
     override func commonInit(){
+        super.commonInit()
         self.textColor = DtacColor.primaryTelenorLink
     }
 }

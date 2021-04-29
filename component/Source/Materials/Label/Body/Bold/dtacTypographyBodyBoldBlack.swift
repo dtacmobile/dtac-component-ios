@@ -20,6 +20,7 @@ public class dtacTypographyBodyBoldBlack: dtacTypographyBodyBold {
     }
     
     override func commonInit(){
+        super.commonInit()
         self.textColor = DtacColor.primaryTelenorBlack
     }
 }

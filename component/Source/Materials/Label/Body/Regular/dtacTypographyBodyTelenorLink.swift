@@ -20,6 +20,7 @@ public class dtacTypographyBodyTelenorLink: dtacTypographyBody {
     }
     
     override func commonInit(){
+        super.commonInit()
         self.textColor = DtacColor.primaryTelenorLink
     }
 }

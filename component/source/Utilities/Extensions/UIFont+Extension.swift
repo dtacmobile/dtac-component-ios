@@ -20,10 +20,10 @@ extension CGFloat {
             switch UIDevice.screenInchType {
             case .iPhone4in: fontSize = self - 2 //iphone 5
             case .iPhone4dot7in: fontSize = self //iphone 6
-            case .iPhone5dot5in: fontSize = self + 4 //iphone 6+
-            case .iPhone5dot8in: fontSize = self + 4 //iphone 11 pro
-            case .iPhone6dot1in: fontSize = self + 4 //iphone 11
-            case .iPhone6dot5in: fontSize = self + 4 //iphone 11 pro max
+            case .iPhone5dot5in: fontSize = self// + 4 //iphone 6+
+            case .iPhone5dot8in: fontSize = self// + 4 //iphone 11 pro
+            case .iPhone6dot1in: fontSize = self// + 4 //iphone 11
+            case .iPhone6dot5in: fontSize = self// + 4 //iphone 11 pro max
             default: fontSize = self - 2 //iphone 4
             }
             

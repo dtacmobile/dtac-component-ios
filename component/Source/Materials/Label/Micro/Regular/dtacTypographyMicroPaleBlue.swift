@@ -20,6 +20,7 @@ public class dtacTypographyMicroPaleBlue: dtacTypographyMicro {
     }
     
     override func commonInit(){
+        super.commonInit()
         self.textColor = DtacColor.primaryPaleBlue
     }
 }

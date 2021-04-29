@@ -20,6 +20,7 @@ public class dtacTypographyH3BoldPaleBlue: dtacTypographyBoldH3 {
     }
     
     override func commonInit(){
+        super.commonInit()
         self.textColor = DtacColor.primaryPaleBlue
     }
 }

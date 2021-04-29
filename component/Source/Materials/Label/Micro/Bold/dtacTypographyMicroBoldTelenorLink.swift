@@ -20,6 +20,7 @@ public class dtacTypographyMicroBoldTelenorLink: dtacTypographyBoldMicro {
     }
     
     override func commonInit(){
+        super.commonInit()
         self.textColor = DtacColor.primaryTelenorLink
     }
 }
