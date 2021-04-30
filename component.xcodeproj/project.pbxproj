@@ -26,6 +26,10 @@
 		1BC2B70C26316EB60017E2BE /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2B70A26316EB60017E2BE /* UIView+Extension.swift */; };
 		1BC2B71526316FAE0017E2BE /* dtacTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2B71426316FAE0017E2BE /* dtacTextField.swift */; };
 		1BC2B767263186290017E2BE /* dtacTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BC2B766263186290017E2BE /* dtacTextField.xib */; };
+		37640D40263B794000E97AB7 /* dtacPrimaryButtonBlue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37640D3F263B794000E97AB7 /* dtacPrimaryButtonBlue.swift */; };
+		37640D42263B7AD600E97AB7 /* CALayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37640D41263B7AD600E97AB7 /* CALayer+Extension.swift */; };
+		37640D44263B7FA200E97AB7 /* dtacPrimaryButtonWhite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37640D43263B7FA200E97AB7 /* dtacPrimaryButtonWhite.swift */; };
+		37640D46263B801E00E97AB7 /* dtacPrimaryButtonOutline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37640D45263B801E00E97AB7 /* dtacPrimaryButtonOutline.swift */; };
 		37EECF6426327575005D1D69 /* DtacColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECF6326327575005D1D69 /* DtacColor.swift */; };
 		37EECF6B263278D9005D1D69 /* dtacTypographyH1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECF6A263278D9005D1D69 /* dtacTypographyH1.swift */; };
 		37EECF7126329E02005D1D69 /* dtacTypographyH1Black.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EECF7026329E02005D1D69 /* dtacTypographyH1Black.swift */; };
@@ -118,6 +122,10 @@
 		1BC2B70A26316EB60017E2BE /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		1BC2B71426316FAE0017E2BE /* dtacTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dtacTextField.swift; sourceTree = "<group>"; };
 		1BC2B766263186290017E2BE /* dtacTextField.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = dtacTextField.xib; sourceTree = "<group>"; };
+		37640D3F263B794000E97AB7 /* dtacPrimaryButtonBlue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = dtacPrimaryButtonBlue.swift; path = component/Source/Materials/UIButton/dtacPrimaryButtonBlue.swift; sourceTree = SOURCE_ROOT; };
+		37640D41263B7AD600E97AB7 /* CALayer+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CALayer+Extension.swift"; path = "component/Source/Utilities/Extensions/CALayer+Extension.swift"; sourceTree = SOURCE_ROOT; };
+		37640D43263B7FA200E97AB7 /* dtacPrimaryButtonWhite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = dtacPrimaryButtonWhite.swift; path = component/Source/Materials/UIButton/dtacPrimaryButtonWhite.swift; sourceTree = SOURCE_ROOT; };
+		37640D45263B801E00E97AB7 /* dtacPrimaryButtonOutline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = dtacPrimaryButtonOutline.swift; path = component/Source/Materials/UIButton/dtacPrimaryButtonOutline.swift; sourceTree = SOURCE_ROOT; };
 		37EECF6326327575005D1D69 /* DtacColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DtacColor.swift; path = component/Source/Materials/Colors/DtacColor.swift; sourceTree = SOURCE_ROOT; };
 		37EECF6A263278D9005D1D69 /* dtacTypographyH1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = dtacTypographyH1.swift; path = component/source/Materials/Label/H1/dtacTypographyH1.swift; sourceTree = SOURCE_ROOT; };
 		37EECF7026329E02005D1D69 /* dtacTypographyH1Black.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = dtacTypographyH1Black.swift; path = component/Source/Materials/Label/H1/dtacTypographyH1Black.swift; sourceTree = SOURCE_ROOT; };
@@ -263,6 +271,16 @@
 			path = dtacTextField;
 			sourceTree = "<group>";
 		};
+		37640D3E263B78D600E97AB7 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				37640D3F263B794000E97AB7 /* dtacPrimaryButtonBlue.swift */,
+				37640D43263B7FA200E97AB7 /* dtacPrimaryButtonWhite.swift */,
+				37640D45263B801E00E97AB7 /* dtacPrimaryButtonOutline.swift */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
 		37EECF5C263273DB005D1D69 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -282,6 +300,7 @@
 		37EECF5E2632747C005D1D69 /* Materials */ = {
 			isa = PBXGroup;
 			children = (
+				37640D3E263B78D600E97AB7 /* UIButton */,
 				37EECF692632787A005D1D69 /* Label */,
 				37EECF622632754E005D1D69 /* Colors */,
 				37EECF6026327520005D1D69 /* Button */,
@@ -334,6 +353,7 @@
 				1B16BA7C26314555000CA3C5 /* UIColor+Extension.swift */,
 				1BC2B70A26316EB60017E2BE /* UIView+Extension.swift */,
 				37EED011263692B0005D1D69 /* UIDevice+Extension.swift */,
+				37640D41263B7AD600E97AB7 /* CALayer+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -614,6 +634,7 @@
 				37EECFBE26368AB0005D1D69 /* dtacTypographyH3BoldPaleBlue.swift in Sources */,
 				37EECFC426368AB0005D1D69 /* dtacTypographyH3Black.swift in Sources */,
 				37EECFC526368AB0005D1D69 /* dtacTypographyH3.swift in Sources */,
+				37640D42263B7AD600E97AB7 /* CALayer+Extension.swift in Sources */,
 				37EECFDF26368C00005D1D69 /* dtacTypographyBodyBoldTelenorLink.swift in Sources */,
 				37EECFF326368D02005D1D69 /* dtacTypographyBodySmallBoldBlue.swift in Sources */,
 				37EECFA0263688EA005D1D69 /* dtacTypographyH2TelenorLink.swift in Sources */,
@@ -636,6 +657,7 @@
 				1B16BA8B26314555000CA3C5 /* DtacStyleButton.swift in Sources */,
 				1BC2B70C26316EB60017E2BE /* UIView+Extension.swift in Sources */,
 				1BC2B71526316FAE0017E2BE /* dtacTextField.swift in Sources */,
+				37640D46263B801E00E97AB7 /* dtacPrimaryButtonOutline.swift in Sources */,
 				37EED012263692B0005D1D69 /* UIDevice+Extension.swift in Sources */,
 				37EECFC726368AB0005D1D69 /* dtacTypographyH3PaleBlue.swift in Sources */,
 				37EED00826368FC8005D1D69 /* dtacTypographyMicroPaleBlue.swift in Sources */,
@@ -669,6 +691,7 @@
 				37EECFF526368D02005D1D69 /* dtacTypographyBodySmallBoldPaleBlue.swift in Sources */,
 				37EECF9E263688EA005D1D69 /* dtacTypographyH2Blue.swift in Sources */,
 				37EED02A2636A03D005D1D69 /* dtacTypographyBoldBodySmallTelenorBlue.swift in Sources */,
+				37640D40263B794000E97AB7 /* dtacPrimaryButtonBlue.swift in Sources */,
 				37EED00A26368FC8005D1D69 /* dtacTypographyMicroBlue.swift in Sources */,
 				37EECF9626368856005D1D69 /* dtacTypographyH1PaleBlue.swift in Sources */,
 				37EECFF126368D02005D1D69 /* dtacTypographyBodySmall.swift in Sources */,
@@ -677,6 +700,7 @@
 				37EECFEF26368D02005D1D69 /* dtacTypographyBodySmallBlack.swift in Sources */,
 				37EECFAC263689DC005D1D69 /* dtacTypographyH2BoldBlack.swift in Sources */,
 				37EECFF726368D02005D1D69 /* dtacTypographyBodySmallBoldTelenorLink.swift in Sources */,
+				37640D44263B7FA200E97AB7 /* dtacPrimaryButtonWhite.swift in Sources */,
 				37EECFF026368D02005D1D69 /* dtacTypographyBodySmallBlue.swift in Sources */,
 				37EECF6426327575005D1D69 /* DtacColor.swift in Sources */,
 				37EECF932636880F005D1D69 /* dtacTypographyH1Blue.swift in Sources */,
